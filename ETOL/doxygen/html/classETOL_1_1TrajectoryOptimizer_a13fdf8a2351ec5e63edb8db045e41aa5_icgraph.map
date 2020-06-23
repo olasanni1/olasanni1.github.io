@@ -1,0 +1,8 @@
+<map id="ETOL::TrajectoryOptimizer::getObstacles" name="ETOL::TrajectoryOptimizer::getObstacles">
+<area shape="rect" id="node1" title="Get the pointer to the polygon partitioned exclusion zones." alt="" coords="268,99,455,141"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGLPK.html#af54afff990cf10d0c45064c416d26719" title="Add obstacles." alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node3" href="$etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="85,56,140,83"/>
+<area shape="rect" id="node4" href="$etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="57,107,168,133"/>
+<area shape="rect" id="node5" href="$classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="19,158,206,199"/>
+<area shape="rect" id="node6" href="$classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="19,223,206,265"/>
+</map>

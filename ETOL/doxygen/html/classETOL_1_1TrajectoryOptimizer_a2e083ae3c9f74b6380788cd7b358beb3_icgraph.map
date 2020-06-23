@@ -1,0 +1,7 @@
+<map id="ETOL::TrajectoryOptimizer::addParams" name="ETOL::TrajectoryOptimizer::addParams">
+<area shape="rect" id="node1" title="Adds a non&#45;state or non&#45;control variable to the problem." alt="" coords="268,74,455,115"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGLPK.html#af54afff990cf10d0c45064c416d26719" title="Add obstacles." alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eGLPK.html#ab4403969b92b3ac8e354603dc6162f41" title="Add tracks." alt="" coords="16,56,209,83"/>
+<area shape="rect" id="node4" href="$etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="57,107,168,133"/>
+<area shape="rect" id="node5" href="$etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="57,157,168,184"/>
+</map>

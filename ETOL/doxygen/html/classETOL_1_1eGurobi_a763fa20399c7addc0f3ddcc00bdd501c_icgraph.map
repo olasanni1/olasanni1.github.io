@@ -1,0 +1,15 @@
+<map id="ETOL::eGurobi::errorHandler" name="ETOL::eGurobi::errorHandler">
+<area shape="rect" id="node1" title="An error handler for Gurobi exceptions." alt="" coords="691,284,892,311"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGurobi.html#a8602dec33cc745c22ef895e7ac7558b7" title="Converts the gradient function to a Gurobi expression." alt="" coords="447,5,639,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eGurobi.html#ad4c70ea676cd63c14bdb38211da91d5e" title="Converts the objective function to a Gurobi expression." alt="" coords="457,56,630,83"/>
+<area shape="rect" id="node4" href="$classETOL_1_1eGurobi.html#ad58026cb5f14b948d92236c7e680b5fd" title="Add the objective function to the Gurobi model." alt="" coords="220,107,385,133"/>
+<area shape="rect" id="node5" href="$classETOL_1_1eGurobi.html#abe63da9304f73b1a05e2a225389b22be" title="Constructs an optimization problem from settings." alt="" coords="5,309,161,336"/>
+<area shape="rect" id="node6" href="$classETOL_1_1eGurobi.html#a47b0f1d3ea666d59446845c03d316b72" title="Converts the constraint functions to a Gurobi expression." alt="" coords="444,208,643,235"/>
+<area shape="rect" id="node7" href="$classETOL_1_1eGurobi.html#affc82a53b12aac347e3b1e04df041a92" title="Add the path constraints to the Gurobi model." alt="" coords="209,259,396,285"/>
+<area shape="rect" id="node8" href="$classETOL_1_1eGurobi.html#aac34fc352af57896271cbec07e64e844" title="Add the state dynamics to the Gurobi model." alt="" coords="218,309,387,336"/>
+<area shape="rect" id="node9" href="$classETOL_1_1eGurobi.html#a51a4614ee6265a1c6e0f0b5b83199195" title="Add the initial state constraint to the Gurobi model." alt="" coords="223,360,383,387"/>
+<area shape="rect" id="node10" href="$classETOL_1_1eGurobi.html#a4b647b261b38423728542af4d47ef82b" title="Add the goal state constraint to the Gurobi model." alt="" coords="225,411,381,437"/>
+<area shape="rect" id="node11" href="$classETOL_1_1eGurobi.html#acf4f57f78a4c29198e2d6c2f26a48f17" title="Add all variables to the Gurobi model." alt="" coords="448,461,639,488"/>
+<area shape="rect" id="node12" href="$classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="461,512,625,539"/>
+<area shape="rect" id="node13" href="$classETOL_1_1eGurobi.html#a326d51dd91910d0a0d76939ad7fe74f2" title="Solves the trajectory optimization problem." alt="" coords="226,537,379,564"/>
+</map>

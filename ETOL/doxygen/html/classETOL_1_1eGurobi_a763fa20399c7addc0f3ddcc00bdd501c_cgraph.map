@@ -1,0 +1,4 @@
+<map id="ETOL::eGurobi::errorHandler" name="ETOL::eGurobi::errorHandler">
+<area shape="rect" id="node1" title="An error handler for Gurobi exceptions." alt="" coords="5,13,207,39"/>
+<area shape="rect" id="node2" href="$classETOL_1_1TrajectoryOptimizer.html#ac92a6f35b1d5466eea66f5034ab043c6" title="An error handler that is called in try&#45;catch blocks." alt="" coords="255,5,441,47"/>
+</map>

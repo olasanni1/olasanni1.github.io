@@ -1,0 +1,22 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,523,60,549"/>
+<area shape="rect" id="node2" href="$etol__gurobi__example1_8cpp.html#afe740eca5a5562144c3478a476cc544a" title=" " alt="" coords="146,5,257,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1TrajectoryOptimizer.html#a262df1e71ec0c11e03aca72c0925db20" title="Releases all dynamically allocated resources." alt="" coords="108,57,295,98"/>
+<area shape="rect" id="node4" href="$etol__gurobi__example1_8cpp.html#a486f1502dd6e10a57f33fd6a1dcbb392" title=" " alt="" coords="150,123,253,149"/>
+<area shape="rect" id="node5" href="$etol__gurobi__example1_8cpp.html#a57f8072d28acef4bd00e10f67a6e24ee" title=" " alt="" coords="150,173,253,200"/>
+<area shape="rect" id="node6" href="$classETOL_1_1TrajectoryOptimizer.html#a13fdf8a2351ec5e63edb8db045e41aa5" title="Get the pointer to the polygon partitioned exclusion zones." alt="" coords="343,515,529,557"/>
+<area shape="rect" id="node7" href="$classETOL_1_1TrajectoryOptimizer.html#a67ac7fa535cac19b6c7242c40934c0fd" title=" " alt="" coords="108,275,295,317"/>
+<area shape="rect" id="node8" href="$classETOL_1_1TrajectoryOptimizer.html#a729aac665846e20d57457b441147cc47" title="Get the pointer to the computed state trajectory." alt="" coords="108,341,295,382"/>
+<area shape="rect" id="node9" href="$classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="108,406,295,447"/>
+<area shape="rect" id="node10" href="$etol__gurobi__example1_8cpp.html#a9cbf16095d4a4663b73a1e110063c7dc" title=" " alt="" coords="154,472,249,499"/>
+<area shape="rect" id="node11" href="$etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="146,523,257,549"/>
+<area shape="rect" id="node12" href="$classETOL_1_1TrajectoryOptimizer.html#a2367774ccbec0cee57a21984a9438717" title="Creates a XY&#45;plot wth exclusion zones." alt="" coords="108,574,295,615"/>
+<area shape="rect" id="node13" href="$classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="108,639,295,681"/>
+<area shape="rect" id="node14" href="$etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="146,705,257,732"/>
+<area shape="rect" id="node15" href="$classETOL_1_1TrajectoryOptimizer.html#ac2eb8cdd9873bdf182c4ce05e790d57d" title="Set sense&#45;agnostic constraint functions." alt="" coords="108,757,295,798"/>
+<area shape="rect" id="node16" href="$classETOL_1_1TrajectoryOptimizer.html#a803b459b724e40275d475751ce284acc" title="Set the states&#39; time derivative function." alt="" coords="108,822,295,863"/>
+<area shape="rect" id="node17" href="$classETOL_1_1TrajectoryOptimizer.html#a051d8d8ab22559d857e39ae755e2717a" title="Set the optimization direction." alt="" coords="108,887,295,929"/>
+<area shape="rect" id="node18" href="$classETOL_1_1TrajectoryOptimizer.html#ad28e0166154aae2941ce8a3e1ebc57f3" title="Set the objective function." alt="" coords="108,953,295,994"/>
+<area shape="rect" id="node19" href="$classETOL_1_1TrajectoryOptimizer.html#a164822bf934f941d7d434e10ee96fef6" title="Constructs a trajectory optimization problem." alt="" coords="108,1018,295,1059"/>
+<area shape="rect" id="node20" href="$classETOL_1_1TrajectoryOptimizer.html#aa97372c53782fc2bae260b07d7f08347" title="Solves a trajectory optimization problem." alt="" coords="108,1083,295,1125"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ETOL::TrajectoryOptimizer::setScore" name="ETOL::TrajectoryOptimizer::setScore">
+<area shape="rect" id="node1" title="Stores the eSovler&#39;s objective function result." alt="" coords="207,74,393,115"/>
+<area shape="rect" id="node2" href="$classETOL_1_1ePSOPT.html#a4599c0499572f9f09b81bd8c18ad6d67" title="Solves the trajectory optimization problem." alt="" coords="5,5,159,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eGurobi.html#a326d51dd91910d0a0d76939ad7fe74f2" title="Solves the trajectory optimization problem." alt="" coords="5,56,159,83"/>
+<area shape="rect" id="node4" href="$classETOL_1_1eGLPK.html#a9bcaee8466efbd189351f964708457a2" title="Solves the trajectory optimization problem." alt="" coords="10,107,154,133"/>
+<area shape="rect" id="node5" href="$classETOL_1_1eOMPL.html#ab4514653699cbf244e20f7c48a161777" title="Solves the trajectory optimization problem." alt="" coords="9,157,155,184"/>
+</map>

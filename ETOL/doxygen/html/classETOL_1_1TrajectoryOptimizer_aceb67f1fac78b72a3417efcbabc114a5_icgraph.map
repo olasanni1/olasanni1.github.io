@@ -1,0 +1,21 @@
+<map id="ETOL::TrajectoryOptimizer::getDt" name="ETOL::TrajectoryOptimizer::getDt">
+<area shape="rect" id="node1" title="Get the time step size." alt="" coords="472,429,659,470"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGurobi.html#a8602dec33cc745c22ef895e7ac7558b7" title="Converts the gradient function to a Gurobi expression." alt="" coords="221,5,413,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eGurobi.html#ad4c70ea676cd63c14bdb38211da91d5e" title="Converts the objective function to a Gurobi expression." alt="" coords="230,56,403,83"/>
+<area shape="rect" id="node4" href="$classETOL_1_1eGurobi.html#a47b0f1d3ea666d59446845c03d316b72" title="Converts the constraint functions to a Gurobi expression." alt="" coords="217,107,416,133"/>
+<area shape="rect" id="node5" href="$classETOL_1_1ePSOPT.html#a33624945f8a9cbf84f2134ecd405cf04" title="Add the lower and upper bounds to PSOPT problem." alt="" coords="221,157,413,184"/>
+<area shape="rect" id="node6" href="$classETOL_1_1ePSOPT.html#a0e4c0123d4feb4a0f2032b960b66d7e1" title="Constructs an optimization problem from settings." alt="" coords="5,309,161,336"/>
+<area shape="rect" id="node7" href="$classETOL_1_1eGLPK.html#af54afff990cf10d0c45064c416d26719" title="Add obstacles." alt="" coords="209,259,424,285"/>
+<area shape="rect" id="node8" href="$classETOL_1_1eGLPK.html#ab4403969b92b3ac8e354603dc6162f41" title="Add tracks." alt="" coords="220,309,413,336"/>
+<area shape="rect" id="node9" href="$classETOL_1_1eGurobi.html#acf4f57f78a4c29198e2d6c2f26a48f17" title="Add all variables to the Gurobi model." alt="" coords="221,360,412,387"/>
+<area shape="rect" id="node10" href="$classETOL_1_1ePSOPT.html#a319157b761fde42d7b323554808ec4af" title="Specifies the time derivatives of the states." alt="" coords="245,411,389,437"/>
+<area shape="rect" id="node11" href="$classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="235,461,399,488"/>
+<area shape="rect" id="node12" href="$classETOL_1_1ePSOPT.html#aaad44335e8ad0b2f16294fd9d0d3e49a" title="Specifies the integrand costs." alt="" coords="209,512,424,539"/>
+<area shape="rect" id="node13" href="$classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="223,563,410,605"/>
+<area shape="rect" id="node14" href="$etol__gurobi__example2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="289,629,344,656"/>
+<area shape="rect" id="node15" href="$etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="261,680,372,707"/>
+<area shape="rect" id="node16" href="$classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="223,731,410,773"/>
+<area shape="rect" id="node17" href="$etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="261,797,372,824"/>
+<area shape="rect" id="node18" href="$classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="223,849,410,890"/>
+<area shape="rect" id="node19" href="$classETOL_1_1eOMPL.html#abf50ae227e80b20a38640878f9654b84" title="Set the system dynamics x_dot = f(x,u)" alt="" coords="222,915,411,941"/>
+</map>

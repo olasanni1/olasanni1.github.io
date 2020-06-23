@@ -1,0 +1,6 @@
+<map id="obsConstraint" name="obsConstraint">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,116,98"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGLPK.html#a44161deb5eaef33171349e6256908912" title="Adds the side of an obstacle to the constraint set." alt="" coords="179,5,370,47"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eGLPK.html#a85c35c642456dc021495a5628066a80f" title="Adds the sum of binary variables for an obstacle." alt="" coords="164,71,385,98"/>
+<area shape="rect" id="node4" href="$classETOL_1_1eGLPK.html#af54afff990cf10d0c45064c416d26719" title="Add obstacles." alt="" coords="167,122,382,149"/>
+</map>

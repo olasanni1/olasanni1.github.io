@@ -1,0 +1,6 @@
+<map id="ETOL::eGurobi::solve" name="ETOL::eGurobi::solve">
+<area shape="rect" id="node1" title="Solves the trajectory optimization problem." alt="" coords="5,31,159,57"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGurobi.html#a763fa20399c7addc0f3ddcc00bdd501c" title="An error handler for Gurobi exceptions." alt="" coords="441,5,643,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="218,31,382,57"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#aa41caf87a06f3233cb7b17ec3f18d1d4" title="Stores the eSovler&#39;s objective function result." alt="" coords="207,82,393,123"/>
+</map>

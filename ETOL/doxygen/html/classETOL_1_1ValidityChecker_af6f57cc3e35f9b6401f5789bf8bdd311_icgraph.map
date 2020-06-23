@@ -1,0 +1,4 @@
+<map id="ETOL::ValidityChecker::isInside" name="ETOL::ValidityChecker::isInside">
+<area shape="rect" id="node1" title="Check if the point lies inside the polygon." alt="" coords="213,5,373,47"/>
+<area shape="rect" id="node2" href="$classETOL_1_1ValidityChecker.html#abeddc407e388ce353f4e458d026b8476" title="Check if the state collides with obstacles." alt="" coords="5,5,165,47"/>
+</map>

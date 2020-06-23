@@ -1,0 +1,5 @@
+<map id="ETOL::ValidityChecker::doIntersect" name="ETOL::ValidityChecker::doIntersect">
+<area shape="rect" id="node1" title="Check if two lines intersect." alt="" coords="5,39,165,80"/>
+<area shape="rect" id="node2" href="$classETOL_1_1ValidityChecker.html#a0a9b1de1c56c20e46a51086ba1123386" title="Check if a point lies on a line segment." alt="" coords="213,5,373,47"/>
+<area shape="rect" id="node3" href="$classETOL_1_1ValidityChecker.html#a23252fdf43bdea76aa54cd83f68cf3f5" title="Find orientation of ordered triplet (p, q, r)." alt="" coords="213,71,373,112"/>
+</map>

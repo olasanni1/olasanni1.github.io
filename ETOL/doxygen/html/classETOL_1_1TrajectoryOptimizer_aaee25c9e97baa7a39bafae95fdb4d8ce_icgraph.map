@@ -1,0 +1,5 @@
+<map id="ETOL::TrajectoryOptimizer::getNTracks" name="ETOL::TrajectoryOptimizer::getNTracks">
+<area shape="rect" id="node1" title="Get the number of moving exclusion zones." alt="" coords="240,39,427,80"/>
+<area shape="rect" id="node2" href="$classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node3" href="$classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="5,71,192,112"/>
+</map>

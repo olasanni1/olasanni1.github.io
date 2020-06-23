@@ -1,0 +1,8 @@
+<map id="ETOL::TrajectoryOptimizer::resetConfigs" name="ETOL::TrajectoryOptimizer::resetConfigs">
+<area shape="rect" id="node1" title="Sets all configurations to default values." alt="" coords="5,136,192,177"/>
+<area shape="rect" id="node2" href="$classETOL_1_1TrajectoryOptimizer.html#a567d4b8674923d70326c679ef39d8af8" title="Set the time step size." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node3" href="$classETOL_1_1TrajectoryOptimizer.html#a023a43c7ec8b72b0fdb1bcf687baa455" title="Get the number of control variables." alt="" coords="240,71,427,112"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#a5feee27bf9e8293467adab8c310b8660" title="Get the number of state variables." alt="" coords="240,136,427,177"/>
+<area shape="rect" id="node5" href="$classETOL_1_1TrajectoryOptimizer.html#ab21ca664f70d8b4e21718f990576cb6a" title="Sets the reverse time horizon for control variables." alt="" coords="240,201,427,243"/>
+<area shape="rect" id="node6" href="$classETOL_1_1TrajectoryOptimizer.html#af077fafdd3fa433c47ced083c8568c7a" title="Sets the reverse time horizon for state variables." alt="" coords="240,267,427,308"/>
+</map>

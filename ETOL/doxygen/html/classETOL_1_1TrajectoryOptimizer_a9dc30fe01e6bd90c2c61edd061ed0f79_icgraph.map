@@ -1,0 +1,5 @@
+<map id="ETOL::TrajectoryOptimizer::calcSlopes" name="ETOL::TrajectoryOptimizer::calcSlopes">
+<area shape="rect" id="node1" title="Computes slopes for lower and upper segments for convex partitions." alt="" coords="268,23,455,65"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGLPK.html#af54afff990cf10d0c45064c416d26719" title="Add obstacles." alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node3" href="$etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="57,56,168,83"/>
+</map>

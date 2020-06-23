@@ -1,0 +1,21 @@
+<map id="ETOL::TrajectoryOptimizer::saveConfigs" name="ETOL::TrajectoryOptimizer::saveConfigs">
+<area shape="rect" id="node1" title="Saves configurations to an XML file." alt="" coords="5,561,192,603"/>
+<area shape="rect" id="node2" href="$classETOL_1_1TrajectoryOptimizer.html#aceb67f1fac78b72a3417efcbabc114a5" title="Get the time step size." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node3" href="$classETOL_1_1TrajectoryOptimizer.html#af547ccb7cb160111cdcf5bd06923be07" title="Get the number of control variables." alt="" coords="240,71,427,112"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#ad865ddaf99fb619cff4e147878338540" title="Get the number of state variables." alt="" coords="240,136,427,177"/>
+<area shape="rect" id="node5" href="$classETOL_1_1TrajectoryOptimizer.html#a427abf082db58439e1f64dfeee13e90d" title="Get the number of time steps." alt="" coords="240,201,427,243"/>
+<area shape="rect" id="node6" href="$classETOL_1_1TrajectoryOptimizer.html#aaee25c9e97baa7a39bafae95fdb4d8ce" title="Get the number of moving exclusion zones." alt="" coords="240,267,427,308"/>
+<area shape="rect" id="node7" href="$classETOL_1_1TrajectoryOptimizer.html#a13fdf8a2351ec5e63edb8db045e41aa5" title="Get the pointer to the polygon partitioned exclusion zones." alt="" coords="240,332,427,373"/>
+<area shape="rect" id="node8" href="$classETOL_1_1TrajectoryOptimizer.html#a56386f608f877f0f5385bf02b2084862" title="Get the pointer to the moving exclusion zones." alt="" coords="240,397,427,439"/>
+<area shape="rect" id="node9" href="$classETOL_1_1TrajectoryOptimizer.html#a791dc191bfad7aecf7a443c15dff3bcf" title="Get the controls&#39; lower bound." alt="" coords="240,463,427,504"/>
+<area shape="rect" id="node10" href="$classETOL_1_1TrajectoryOptimizer.html#a69446696951cd6c075e3b00abca2d0bd" title="Get the controls&#39; reverse time horizon." alt="" coords="240,528,427,569"/>
+<area shape="rect" id="node11" href="$classETOL_1_1TrajectoryOptimizer.html#aaaa1ec39483dce768f05c6d5160f554d" title="Get the controls&#39; upper bound." alt="" coords="240,593,427,635"/>
+<area shape="rect" id="node12" href="$classETOL_1_1TrajectoryOptimizer.html#a15e3f5111fb65aa7674c36c4ee367c10" title="Get the control variables&#39; type." alt="" coords="240,659,427,700"/>
+<area shape="rect" id="node13" href="$classETOL_1_1TrajectoryOptimizer.html#a69c3b5dde0046204c9a9c1b58336cda7" title="Get the initial state." alt="" coords="240,724,427,765"/>
+<area shape="rect" id="node14" href="$classETOL_1_1TrajectoryOptimizer.html#adc49c4306c1ec9d75eb004cf154a2792" title="Get the goal state." alt="" coords="240,789,427,831"/>
+<area shape="rect" id="node15" href="$classETOL_1_1TrajectoryOptimizer.html#ae5cb92f5ef846c63b9a043b72fa9abf3" title="Get the states&#39; lower bound." alt="" coords="240,855,427,896"/>
+<area shape="rect" id="node16" href="$classETOL_1_1TrajectoryOptimizer.html#a32258672d5dbde3777a735361f0464d9" title="Get the states&#39; reverse time horizon." alt="" coords="240,920,427,961"/>
+<area shape="rect" id="node17" href="$classETOL_1_1TrajectoryOptimizer.html#a1a65f337dcc8a74cf9df1565db8d7dc4" title="Get the states&#39; error tolerance." alt="" coords="240,985,427,1027"/>
+<area shape="rect" id="node18" href="$classETOL_1_1TrajectoryOptimizer.html#abdd1629c30adc068796be07e8f1981c8" title="Get the states&#39; upper bound." alt="" coords="240,1051,427,1092"/>
+<area shape="rect" id="node19" href="$classETOL_1_1TrajectoryOptimizer.html#acbdf0a610e35526a555f51ee1097a364" title="Get the states&#39; variable type." alt="" coords="240,1116,427,1157"/>
+</map>

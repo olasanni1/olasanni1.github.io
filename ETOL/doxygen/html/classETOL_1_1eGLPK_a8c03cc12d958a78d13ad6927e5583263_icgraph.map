@@ -1,0 +1,4 @@
+<map id="ETOL::eGLPK::getTraj" name="ETOL::eGLPK::getTraj">
+<area shape="rect" id="node1" title="Get the trajectory results from the GLPK model." alt="" coords="197,5,352,32"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGLPK.html#a9bcaee8466efbd189351f964708457a2" title="Solves the trajectory optimization problem." alt="" coords="5,5,149,32"/>
+</map>

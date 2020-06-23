@@ -1,0 +1,7 @@
+<map id="ETOL::TrajectoryOptimizer::getXtraj" name="ETOL::TrajectoryOptimizer::getXtraj">
+<area shape="rect" id="node1" title="Get the pointer to the computed state trajectory." alt="" coords="217,74,404,115"/>
+<area shape="rect" id="node2" href="$classETOL_1_1ePSOPT.html#a9c0bf3ae2b7a26955c5dbf471dcff5d2" title=" " alt="" coords="5,5,169,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eOMPL.html#a90f98ef8915cee3e1d5b7d3b40a3527d" title="Get the trajectory results from the OMPL model." alt="" coords="8,56,167,83"/>
+<area shape="rect" id="node4" href="$classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="5,107,169,133"/>
+<area shape="rect" id="node5" href="$etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="60,157,115,184"/>
+</map>

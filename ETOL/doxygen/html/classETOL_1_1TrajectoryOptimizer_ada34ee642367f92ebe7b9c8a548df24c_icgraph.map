@@ -1,0 +1,5 @@
+<map id="ETOL::TrajectoryOptimizer::isMaximized" name="ETOL::TrajectoryOptimizer::isMaximized">
+<area shape="rect" id="node1" title="Get the optimization direction." alt="" coords="268,23,455,65"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGurobi.html#ad58026cb5f14b948d92236c7e680b5fd" title="Add the objective function to the Gurobi model." alt="" coords="30,5,195,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1ePSOPT.html#aaad44335e8ad0b2f16294fd9d0d3e49a" title="Specifies the integrand costs." alt="" coords="5,56,220,83"/>
+</map>

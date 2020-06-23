@@ -1,0 +1,15 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,355,60,382"/>
+<area shape="rect" id="node2" href="$classETOL_1_1TrajectoryOptimizer.html#a262df1e71ec0c11e03aca72c0925db20" title="Releases all dynamically allocated resources." alt="" coords="109,5,296,47"/>
+<area shape="rect" id="node3" href="$etol__ompl__example1_8cpp.html#abc29ae96ed84774ce37022548ee238c1" title=" " alt="" coords="147,71,258,98"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#a13fdf8a2351ec5e63edb8db045e41aa5" title="Get the pointer to the polygon partitioned exclusion zones." alt="" coords="109,123,296,164"/>
+<area shape="rect" id="node5" href="$classETOL_1_1TrajectoryOptimizer.html#a67ac7fa535cac19b6c7242c40934c0fd" title=" " alt="" coords="109,188,296,229"/>
+<area shape="rect" id="node6" href="$classETOL_1_1TrajectoryOptimizer.html#a729aac665846e20d57457b441147cc47" title="Get the pointer to the computed state trajectory." alt="" coords="109,253,296,295"/>
+<area shape="rect" id="node7" href="$classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="109,319,296,360"/>
+<area shape="rect" id="node8" href="$etol__ompl__example1_8cpp.html#a871d06ac456086a9be18ae523ed0a26c" title=" " alt="" coords="155,385,250,411"/>
+<area shape="rect" id="node9" href="$classETOL_1_1TrajectoryOptimizer.html#a2367774ccbec0cee57a21984a9438717" title="Creates a XY&#45;plot wth exclusion zones." alt="" coords="109,436,296,477"/>
+<area shape="rect" id="node10" href="$classETOL_1_1eOMPL.html#abf50ae227e80b20a38640878f9654b84" title="Set the system dynamics x_dot = f(x,u)" alt="" coords="108,502,297,529"/>
+<area shape="rect" id="node11" href="$classETOL_1_1eOMPL.html#ac9eec56ae8bd3d3de84f3616527d5e99" title="Set the sampling&#45;based path planning algorithm to be used." alt="" coords="111,553,294,579"/>
+<area shape="rect" id="node12" href="$classETOL_1_1TrajectoryOptimizer.html#a164822bf934f941d7d434e10ee96fef6" title="Constructs a trajectory optimization problem." alt="" coords="109,604,296,645"/>
+<area shape="rect" id="node13" href="$classETOL_1_1TrajectoryOptimizer.html#aa97372c53782fc2bae260b07d7f08347" title="Solves a trajectory optimization problem." alt="" coords="109,669,296,711"/>
+</map>

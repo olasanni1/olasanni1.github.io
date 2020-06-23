@@ -1,0 +1,5 @@
+<map id="ETOL::ValidityChecker::onSegment" name="ETOL::ValidityChecker::onSegment">
+<area shape="rect" id="node1" title="Check if a point lies on a line segment." alt="" coords="421,35,581,76"/>
+<area shape="rect" id="node2" href="$classETOL_1_1ValidityChecker.html#a925b0c20a6cf550859b7cc301872094f" title="Check if two lines intersect." alt="" coords="213,5,373,47"/>
+<area shape="rect" id="node3" href="$classETOL_1_1ValidityChecker.html#af6f57cc3e35f9b6401f5789bf8bdd311" title="Check if the point lies inside the polygon." alt="" coords="5,35,165,76"/>
+</map>

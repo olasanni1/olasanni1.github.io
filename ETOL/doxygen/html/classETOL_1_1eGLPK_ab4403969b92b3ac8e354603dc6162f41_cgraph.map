@@ -1,0 +1,7 @@
+<map id="ETOL::eGLPK::createTracks" name="ETOL::eGLPK::createTracks">
+<area shape="rect" id="node1" title="Add tracks." alt="" coords="5,111,199,138"/>
+<area shape="rect" id="node2" href="$classETOL_1_1TrajectoryOptimizer.html#a2e083ae3c9f74b6380788cd7b358beb3" title="Adds a non&#45;state or non&#45;control variable to the problem." alt="" coords="247,5,433,47"/>
+<area shape="rect" id="node3" href="$classETOL_1_1TrajectoryOptimizer.html#aceb67f1fac78b72a3417efcbabc114a5" title="Get the time step size." alt="" coords="247,71,433,112"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#a427abf082db58439e1f64dfeee13e90d" title="Get the number of time steps." alt="" coords="247,136,433,177"/>
+<area shape="rect" id="node5" href="$classETOL_1_1TrajectoryOptimizer.html#a56386f608f877f0f5385bf02b2084862" title="Get the pointer to the moving exclusion zones." alt="" coords="247,201,433,243"/>
+</map>

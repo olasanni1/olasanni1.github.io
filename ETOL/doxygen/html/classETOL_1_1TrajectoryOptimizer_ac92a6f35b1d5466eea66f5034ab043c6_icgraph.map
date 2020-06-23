@@ -1,0 +1,6 @@
+<map id="ETOL::TrajectoryOptimizer::errorHandler" name="ETOL::TrajectoryOptimizer::errorHandler">
+<area shape="rect" id="node1" title="An error handler that is called in try&#45;catch blocks." alt="" coords="268,49,455,90"/>
+<area shape="rect" id="node2" href="$classETOL_1_1ePSOPT.html#a319157b761fde42d7b323554808ec4af" title="Specifies the time derivatives of the states." alt="" coords="41,5,185,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eGurobi.html#a763fa20399c7addc0f3ddcc00bdd501c" title="An error handler for Gurobi exceptions." alt="" coords="12,56,213,83"/>
+<area shape="rect" id="node4" href="$classETOL_1_1ePSOPT.html#aaad44335e8ad0b2f16294fd9d0d3e49a" title="Specifies the integrand costs." alt="" coords="5,107,220,133"/>
+</map>

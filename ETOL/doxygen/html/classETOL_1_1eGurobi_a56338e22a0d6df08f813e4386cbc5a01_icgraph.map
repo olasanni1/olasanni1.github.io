@@ -1,0 +1,4 @@
+<map id="ETOL::eGurobi::getTraj" name="ETOL::eGurobi::getTraj">
+<area shape="rect" id="node1" title="Get the trajectory results from the Gurobi model." alt="" coords="207,5,371,32"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGurobi.html#a326d51dd91910d0a0d76939ad7fe74f2" title="Solves the trajectory optimization problem." alt="" coords="5,5,159,32"/>
+</map>

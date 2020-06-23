@@ -1,0 +1,4 @@
+<map id="ETOL::TrajectoryOptimizer::resetConfigs" name="ETOL::TrajectoryOptimizer::resetConfigs">
+<area shape="rect" id="node1" title="Sets all configurations to default values." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node2" href="$classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="5,5,192,47"/>
+</map>

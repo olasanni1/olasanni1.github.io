@@ -1,0 +1,9 @@
+<map id="ETOL::eGLPK::createObstacles" name="ETOL::eGLPK::createObstacles">
+<area shape="rect" id="node1" title="Add obstacles." alt="" coords="5,177,220,203"/>
+<area shape="rect" id="node2" href="$classETOL_1_1TrajectoryOptimizer.html#a2e083ae3c9f74b6380788cd7b358beb3" title="Adds a non&#45;state or non&#45;control variable to the problem." alt="" coords="281,5,468,47"/>
+<area shape="rect" id="node3" href="$classETOL_1_1TrajectoryOptimizer.html#a9dc30fe01e6bd90c2c61edd061ed0f79" title="Computes slopes for lower and upper segments for convex partitions." alt="" coords="281,71,468,112"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#aceb67f1fac78b72a3417efcbabc114a5" title="Get the time step size." alt="" coords="281,136,468,177"/>
+<area shape="rect" id="node5" href="$classETOL_1_1TrajectoryOptimizer.html#a427abf082db58439e1f64dfeee13e90d" title="Get the number of time steps." alt="" coords="281,201,468,243"/>
+<area shape="rect" id="node6" href="$classETOL_1_1TrajectoryOptimizer.html#a13fdf8a2351ec5e63edb8db045e41aa5" title="Get the pointer to the polygon partitioned exclusion zones." alt="" coords="281,267,468,308"/>
+<area shape="rect" id="node7" href="$classETOL_1_1eGLPK.html#aefdf7845a90d6f69cd8bca8de09a2bea" title="Provides a consistent name for a custom variable." alt="" coords="268,333,481,359"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ETOL::TrajectoryOptimizer::getUvartype" name="ETOL::TrajectoryOptimizer::getUvartype">
+<area shape="rect" id="node1" title="Get the control variables&#39; type." alt="" coords="244,27,431,69"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGurobi.html#acf4f57f78a4c29198e2d6c2f26a48f17" title="Add all variables to the Gurobi model." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="7,57,194,98"/>
+</map>

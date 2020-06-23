@@ -1,0 +1,7 @@
+<map id="ETOL::eGurobi::addObj" name="ETOL::eGurobi::addObj">
+<area shape="rect" id="node1" title="Add the objective function to the Gurobi model." alt="" coords="5,85,171,112"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGurobi.html#ad4c70ea676cd63c14bdb38211da91d5e" title="Converts the objective function to a Gurobi expression." alt="" coords="225,5,399,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eGurobi.html#a763fa20399c7addc0f3ddcc00bdd501c" title="An error handler for Gurobi exceptions." alt="" coords="453,31,655,57"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#a427abf082db58439e1f64dfeee13e90d" title="Get the number of time steps." alt="" coords="219,107,405,149"/>
+<area shape="rect" id="node5" href="$classETOL_1_1TrajectoryOptimizer.html#ada34ee642367f92ebe7b9c8a548df24c" title="Get the optimization direction." alt="" coords="219,173,405,214"/>
+</map>

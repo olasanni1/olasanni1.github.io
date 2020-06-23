@@ -1,0 +1,15 @@
+<map id="ETOL::TrajectoryOptimizer::getNControls" name="ETOL::TrajectoryOptimizer::getNControls">
+<area shape="rect" id="node1" title="Get the number of control variables." alt="" coords="472,277,659,318"/>
+<area shape="rect" id="node2" href="$classETOL_1_1ePSOPT.html#a33624945f8a9cbf84f2134ecd405cf04" title="Add the lower and upper bounds to PSOPT problem." alt="" coords="221,5,413,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1ePSOPT.html#a0e4c0123d4feb4a0f2032b960b66d7e1" title="Constructs an optimization problem from settings." alt="" coords="5,132,161,159"/>
+<area shape="rect" id="node4" href="$classETOL_1_1eGurobi.html#acf4f57f78a4c29198e2d6c2f26a48f17" title="Add all variables to the Gurobi model." alt="" coords="221,107,412,133"/>
+<area shape="rect" id="node5" href="$classETOL_1_1eOMPL.html#a0ce828cfc1e94424700bafecac5d078a" title="Add all variables to the OMPL model." alt="" coords="225,157,409,184"/>
+<area shape="rect" id="node6" href="$classETOL_1_1ePSOPT.html#a319157b761fde42d7b323554808ec4af" title="Specifies the time derivatives of the states." alt="" coords="245,208,389,235"/>
+<area shape="rect" id="node7" href="$classETOL_1_1eOMPL.html#a90f98ef8915cee3e1d5b7d3b40a3527d" title="Get the trajectory results from the OMPL model." alt="" coords="237,259,396,285"/>
+<area shape="rect" id="node8" href="$classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="235,309,399,336"/>
+<area shape="rect" id="node9" href="$classETOL_1_1ePSOPT.html#aaad44335e8ad0b2f16294fd9d0d3e49a" title="Specifies the integrand costs." alt="" coords="209,360,424,387"/>
+<area shape="rect" id="node10" href="$classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="223,411,410,453"/>
+<area shape="rect" id="node11" href="$classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="223,477,410,518"/>
+<area shape="rect" id="node12" href="$classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="223,542,410,583"/>
+<area shape="rect" id="node13" href="$classETOL_1_1eGLPK.html#ad164d337f5482664c9982164b5572d67" title="Constructs an optimization problem from settings." alt="" coords="243,608,390,635"/>
+</map>

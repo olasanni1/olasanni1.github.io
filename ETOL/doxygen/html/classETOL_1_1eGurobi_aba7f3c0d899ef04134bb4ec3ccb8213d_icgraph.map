@@ -1,0 +1,4 @@
+<map id="ETOL::eGurobi::getGRBType" name="ETOL::eGurobi::getGRBType">
+<area shape="rect" id="node1" title="Converts the variable type to a Gurobi compliant type." alt="" coords="244,5,443,32"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGurobi.html#acf4f57f78a4c29198e2d6c2f26a48f17" title="Add all variables to the Gurobi model." alt="" coords="5,5,196,32"/>
+</map>
