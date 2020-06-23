@@ -9,4 +9,4 @@ layout: home
 
 ## [ETOL Getting Started Guide](https://olasanni1.github.io/ETOL/)
 
-## [ETOL API Documentation](./ETOL/doxygen/html/index.html)
+## [ETOL API Documentation](./etol_api/doxygen/html/index.html)
