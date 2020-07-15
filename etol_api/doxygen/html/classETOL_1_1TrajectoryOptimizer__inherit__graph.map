@@ -1,7 +1,8 @@
 <map id="ETOL::TrajectoryOptimizer" name="ETOL::TrajectoryOptimizer">
-<area shape="rect" id="node1" title="An abstract class for defining a trajectory optimization problem." alt="" coords="260,5,447,1593"/>
-<area shape="rect" id="node2" href="$classETOL_1_1eGLPK.html" title=" " alt="" coords="5,1641,168,2320"/>
-<area shape="rect" id="node3" href="$classETOL_1_1eGurobi.html" title=" " alt="" coords="193,1737,346,2225"/>
-<area shape="rect" id="node4" href="$classETOL_1_1eOMPL.html" title=" " alt="" coords="371,1759,507,2203"/>
-<area shape="rect" id="node5" href="$classETOL_1_1ePSOPT.html" title=" " alt="" coords="531,1817,674,2144"/>
+<area shape="rect" id="node1" title="An abstract class for defining a trajectory optimization problem." alt="" coords="403,5,589,1593"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eDymos.html" title="Uses Pybind11 to interface with the OpenMDAO dymos Python library." alt="" coords="5,1641,208,2511"/>
+<area shape="rect" id="node3" href="$classETOL_1_1eGLPK.html" title=" " alt="" coords="232,1737,395,2415"/>
+<area shape="rect" id="node4" href="$classETOL_1_1eGurobi.html" title=" " alt="" coords="419,1832,573,2320"/>
+<area shape="rect" id="node5" href="$classETOL_1_1eOMPL.html" title=" " alt="" coords="597,1854,733,2298"/>
+<area shape="rect" id="node6" href="$classETOL_1_1ePSOPT.html" title=" " alt="" coords="758,1913,901,2239"/>
 </map>

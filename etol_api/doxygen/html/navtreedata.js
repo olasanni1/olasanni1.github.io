@@ -40,7 +40,7 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
@@ -59,8 +59,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ETOL__Types_8hpp.html",
-"classETOL_1_1eOMPL.html#ad707ec3f1deb69c626b07d7a2ec39723",
-"structETOL_1_1ompl__t.html#ae76ea2186b2de54c715aa02157c47b9b"
+"classETOL_1_1eGLPK.html#af54afff990cf10d0c45064c416d26719",
+"etol__psopt__example1_8cpp.html#a6712e059a536ace2dd0a9bf1e6853391"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

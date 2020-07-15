@@ -1,0 +1,25 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,638,60,665"/>
+<area shape="rect" id="node2" href="$classETOL_1_1TrajectoryOptimizer.html#a7975aaa7a4f0e9ce9b3153c1c3b17778" title="Creates a 2D animation with static and moving exclusion zones." alt="" coords="108,5,295,47"/>
+<area shape="rect" id="node3" href="$classETOL_1_1TrajectoryOptimizer.html#a262df1e71ec0c11e03aca72c0925db20" title="Releases all dynamically allocated resources." alt="" coords="108,71,295,112"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#a4eb426d5bf23c94f4111c6015bed019d" title="Generates debug information." alt="" coords="108,136,295,177"/>
+<area shape="rect" id="node5" href="$etol__dymos__example1_8cpp.html#a486f1502dd6e10a57f33fd6a1dcbb392" title=" " alt="" coords="150,202,253,229"/>
+<area shape="rect" id="node6" href="$etol__dymos__example1_8cpp.html#a57f8072d28acef4bd00e10f67a6e24ee" title=" " alt="" coords="150,253,253,279"/>
+<area shape="rect" id="node7" href="$etol__dymos__example1_8cpp.html#a6e0d42ce1f8f09021f1839dbb8dd9ffe" title=" " alt="" coords="164,303,239,330"/>
+<area shape="rect" id="node8" href="$classETOL_1_1TrajectoryOptimizer.html#a13fdf8a2351ec5e63edb8db045e41aa5" title="Get the pointer to the polygon partitioned exclusion zones." alt="" coords="343,409,529,451"/>
+<area shape="rect" id="node9" href="$classETOL_1_1TrajectoryOptimizer.html#a67ac7fa535cac19b6c7242c40934c0fd" title=" " alt="" coords="108,405,295,447"/>
+<area shape="rect" id="node10" href="$classETOL_1_1TrajectoryOptimizer.html#a56386f608f877f0f5385bf02b2084862" title="Get the pointer to the moving exclusion zones." alt="" coords="343,761,529,803"/>
+<area shape="rect" id="node11" href="$classETOL_1_1TrajectoryOptimizer.html#a729aac665846e20d57457b441147cc47" title="Get the pointer to the computed state trajectory." alt="" coords="108,536,295,577"/>
+<area shape="rect" id="node12" href="$classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="108,601,295,643"/>
+<area shape="rect" id="node13" href="$etol__dymos__example1_8cpp.html#a9cbf16095d4a4663b73a1e110063c7dc" title=" " alt="" coords="154,667,249,694"/>
+<area shape="rect" id="node14" href="$etol__dymos__example1_8cpp.html#a95ea56a2ed428a5caa99dcfa13871d94" title=" " alt="" coords="146,718,257,745"/>
+<area shape="rect" id="node15" href="$classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="108,471,295,512"/>
+<area shape="rect" id="node16" href="$etol__dymos__example1_8cpp.html#a4ac91d90f0e85c208191f1363ab78d85" title=" " alt="" coords="146,819,257,846"/>
+<area shape="rect" id="node17" href="$classETOL_1_1TrajectoryOptimizer.html#ac2eb8cdd9873bdf182c4ce05e790d57d" title="Set sense&#45;agnostic constraint functions." alt="" coords="108,871,295,912"/>
+<area shape="rect" id="node18" href="$etol__dymos__example1_8cpp.html#a795de386eac991e95a0acfc2d24e2f57" title=" " alt="" coords="169,937,233,963"/>
+<area shape="rect" id="node19" href="$classETOL_1_1TrajectoryOptimizer.html#a803b459b724e40275d475751ce284acc" title="Set the states&#39; time derivative function." alt="" coords="108,988,295,1029"/>
+<area shape="rect" id="node20" href="$etol__dymos__example1_8cpp.html#ab2b3b4c066919d2038c47adea18d7e03" title=" " alt="" coords="164,769,239,795"/>
+<area shape="rect" id="node21" href="$classETOL_1_1TrajectoryOptimizer.html#ad28e0166154aae2941ce8a3e1ebc57f3" title="Set the objective function." alt="" coords="108,1105,295,1147"/>
+<area shape="rect" id="node22" href="$classETOL_1_1TrajectoryOptimizer.html#a164822bf934f941d7d434e10ee96fef6" title="Constructs a trajectory optimization problem." alt="" coords="108,1171,295,1212"/>
+<area shape="rect" id="node23" href="$classETOL_1_1TrajectoryOptimizer.html#aa97372c53782fc2bae260b07d7f08347" title="Solves a trajectory optimization problem." alt="" coords="108,1236,295,1277"/>
+</map>

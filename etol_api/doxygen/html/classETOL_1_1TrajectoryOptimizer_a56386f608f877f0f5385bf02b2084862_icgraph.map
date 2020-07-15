@@ -1,8 +1,9 @@
 <map id="ETOL::TrajectoryOptimizer::getTracks" name="ETOL::TrajectoryOptimizer::getTracks">
-<area shape="rect" id="node1" title="Get the pointer to the moving exclusion zones." alt="" coords="247,107,433,149"/>
-<area shape="rect" id="node2" href="$classETOL_1_1eGLPK.html#ab4403969b92b3ac8e354603dc6162f41" title="Add tracks." alt="" coords="5,5,199,32"/>
-<area shape="rect" id="node3" href="$etol__gurobi__example4_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="75,56,129,83"/>
-<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="9,107,195,149"/>
-<area shape="rect" id="node5" href="$etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="47,173,157,200"/>
-<area shape="rect" id="node6" href="$classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="9,225,195,266"/>
+<area shape="rect" id="node1" title="Get the pointer to the moving exclusion zones." alt="" coords="349,137,536,178"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eGLPK.html#ab4403969b92b3ac8e354603dc6162f41" title="Add tracks." alt="" coords="108,5,301,32"/>
+<area shape="rect" id="node3" href="$etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,115,60,141"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="111,107,298,149"/>
+<area shape="rect" id="node5" href="$etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="149,173,260,200"/>
+<area shape="rect" id="node6" href="$classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="111,225,298,266"/>
+<area shape="rect" id="node7" href="$etol__dymos__example1_8cpp.html#ab2b3b4c066919d2038c47adea18d7e03" title=" " alt="" coords="167,291,242,317"/>
 </map>

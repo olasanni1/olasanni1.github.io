@@ -1,8 +1,9 @@
-<map id="C:/msys64/home/admin/ETOL/include/ETOL/TrajectoryOptimizer.hpp" name="C:/msys64/home/admin/ETOL/include/ETOL/TrajectoryOptimizer.hpp">
-<area shape="rect" id="node1" title="The header file for the TrajectoryOptimizer class." alt="" coords="488,5,699,61"/>
+<map id="C:/Users/admin/git/ETOL/include/ETOL/TrajectoryOptimizer.hpp" name="C:/Users/admin/git/ETOL/include/ETOL/TrajectoryOptimizer.hpp">
+<area shape="rect" id="node1" title="The header file for the TrajectoryOptimizer class." alt="" coords="619,5,829,61"/>
 <area shape="rect" id="node2" href="$TrajectoryOptimizer_8cpp.html" title="The implementation for the TrajectoryOptimizer class." alt="" coords="5,109,216,165"/>
-<area shape="rect" id="node3" href="$eGLPK_8hpp.html" title="The header file for the GLPK implementation for ETOL." alt="" coords="240,117,456,158"/>
-<area shape="rect" id="node4" href="$eGurobi_8hpp.html" title="The header file for the Gurobi implementation for ETOL." alt="" coords="481,117,706,158"/>
-<area shape="rect" id="node5" href="$eOMPL_8hpp.html" title="The header file for the OMPL implementation for ETOL." alt="" coords="731,117,949,158"/>
-<area shape="rect" id="node6" href="$ePSOPT_8hpp.html" title="The header file for the PSOPT implementation for ETOL." alt="" coords="974,117,1199,158"/>
+<area shape="rect" id="node3" href="$eDymos_8hpp.html" title="The header file for the ETOL dymos implementation." alt="" coords="241,117,469,158"/>
+<area shape="rect" id="node4" href="$eGLPK_8hpp.html" title="The header file for the GLPK implementation for ETOL." alt="" coords="493,117,709,158"/>
+<area shape="rect" id="node5" href="$eGurobi_8hpp.html" title="The header file for the Gurobi implementation for ETOL." alt="" coords="734,117,959,158"/>
+<area shape="rect" id="node6" href="$eOMPL_8hpp.html" title="The header file for the OMPL implementation for ETOL." alt="" coords="984,117,1203,158"/>
+<area shape="rect" id="node7" href="$ePSOPT_8hpp.html" title="The header file for the PSOPT implementation for ETOL." alt="" coords="1227,117,1453,158"/>
 </map>

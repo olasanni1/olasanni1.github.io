@@ -2,6 +2,7 @@ var namespaceETOL =
 [
     [ "boundary_t", "structETOL_1_1boundary__t.html", "structETOL_1_1boundary__t" ],
     [ "edge_prop_", "structETOL_1_1edge__prop__.html", "structETOL_1_1edge__prop__" ],
+    [ "eDymos", "classETOL_1_1eDymos.html", "classETOL_1_1eDymos" ],
     [ "eGLPK", "classETOL_1_1eGLPK.html", "classETOL_1_1eGLPK" ],
     [ "eGurobi", "classETOL_1_1eGurobi.html", "classETOL_1_1eGurobi" ],
     [ "eOMPL", "classETOL_1_1eOMPL.html", "classETOL_1_1eOMPL" ],

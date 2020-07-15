@@ -1,4 +1,4 @@
-<map id="C:/msys64/home/admin/ETOL/include/ETOL/eGLPK.hpp" name="C:/msys64/home/admin/ETOL/include/ETOL/eGLPK.hpp">
+<map id="C:/Users/admin/git/ETOL/include/ETOL/eGLPK.hpp" name="C:/Users/admin/git/ETOL/include/ETOL/eGLPK.hpp">
 <area shape="rect" id="node1" title="The header file for the GLPK implementation for ETOL." alt="" coords="105,5,321,47"/>
 <area shape="rect" id="node2" href="$eGLPK_8cpp.html" title="A GLPK implementation for ETOL." alt="" coords="5,102,204,143"/>
 <area shape="rect" id="node3" href="$etol__glpk__example1_8cpp.html" title="Loads a ETOL Config XML file and uses GLPK to solve a ETOL." alt="" coords="229,95,413,151"/>

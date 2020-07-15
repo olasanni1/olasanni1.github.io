@@ -1,0 +1,9 @@
+<map id="editAlgo" name="editAlgo">
+<area shape="rect" id="node1" title=" " alt="" coords="5,159,80,185"/>
+<area shape="rect" id="node2" href="$classETOL_1_1eDymos.html#a389950f51dd7c9dbb7feccfac36b121e" title=" " alt="" coords="139,5,303,32"/>
+<area shape="rect" id="node3" href="$classETOL_1_1TrajectoryOptimizer.html#aceb67f1fac78b72a3417efcbabc114a5" title="Get the time step size." alt="" coords="128,57,315,98"/>
+<area shape="rect" id="node4" href="$classETOL_1_1TrajectoryOptimizer.html#a427abf082db58439e1f64dfeee13e90d" title="Get the number of time steps." alt="" coords="128,122,315,163"/>
+<area shape="rect" id="node5" href="$classETOL_1_1eDymos.html#acec9a5c7694c4af7aa5a4f80a16e9fd7" title=" " alt="" coords="135,188,308,215"/>
+<area shape="rect" id="node6" href="$classETOL_1_1TrajectoryOptimizer.html#a69c3b5dde0046204c9a9c1b58336cda7" title="Get the initial state." alt="" coords="128,239,315,281"/>
+<area shape="rect" id="node7" href="$classETOL_1_1TrajectoryOptimizer.html#adc49c4306c1ec9d75eb004cf154a2792" title="Get the goal state." alt="" coords="128,305,315,346"/>
+</map>

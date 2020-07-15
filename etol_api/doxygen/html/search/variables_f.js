@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_632',['x',['../classETOL_1_1eGLPK.html#a90a95988abe845d827a220a24e9ca614',1,'ETOL::eGLPK::x()'],['../structETOL_1_1ValidityChecker_1_1Point.html#a0ec1c8ce0ce1c331efb0ff23dc8382c5',1,'ETOL::ValidityChecker::Point::x()'],['../classETOL_1_1eOMPL.html#ac22f9809c31e0fbfd590f542c2d3651c',1,'ETOL::eOMPL::x()']]]
+  ['with_5fcoloring_5f_750',['with_coloring_',['../classETOL_1_1eDymos.html#a7504803940a356816427ff3bf124c3fe',1,'ETOL::eDymos']]]
 ];

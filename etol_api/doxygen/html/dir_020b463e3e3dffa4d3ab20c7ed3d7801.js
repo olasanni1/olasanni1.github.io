@@ -1,5 +1,8 @@
 var dir_020b463e3e3dffa4d3ab20c7ed3d7801 =
 [
+    [ "eDymos.hpp", "eDymos_8hpp.html", [
+      [ "eDymos", "classETOL_1_1eDymos.html", "classETOL_1_1eDymos" ]
+    ] ],
     [ "eGLPK.hpp", "eGLPK_8hpp.html", "eGLPK_8hpp" ],
     [ "eGLPK_Types.hpp", "eGLPK__Types_8hpp.html", [
       [ "glpk_t", "structETOL_1_1glpk__t.html", "structETOL_1_1glpk__t" ],

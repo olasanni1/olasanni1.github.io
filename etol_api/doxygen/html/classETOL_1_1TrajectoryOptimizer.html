@@ -103,11 +103,12 @@ Inheritance diagram for ETOL::TrajectoryOptimizer:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer__inherit__graph.png" border="0" usemap="#ETOL_1_1TrajectoryOptimizer_inherit__map" alt="Inheritance graph"/></div>
 <map name="ETOL_1_1TrajectoryOptimizer_inherit__map" id="ETOL_1_1TrajectoryOptimizer_inherit__map">
-<area shape="rect" title="An abstract class for defining a trajectory optimization problem." alt="" coords="260,5,447,1593"/>
-<area shape="rect" href="classETOL_1_1eGLPK.html" title=" " alt="" coords="5,1641,168,2320"/>
-<area shape="rect" href="classETOL_1_1eGurobi.html" title=" " alt="" coords="193,1737,346,2225"/>
-<area shape="rect" href="classETOL_1_1eOMPL.html" title=" " alt="" coords="371,1759,507,2203"/>
-<area shape="rect" href="classETOL_1_1ePSOPT.html" title=" " alt="" coords="531,1817,674,2144"/>
+<area shape="rect" title="An abstract class for defining a trajectory optimization problem." alt="" coords="403,5,589,1593"/>
+<area shape="rect" href="classETOL_1_1eDymos.html" title="Uses Pybind11 to interface with the OpenMDAO dymos Python library." alt="" coords="5,1641,208,2511"/>
+<area shape="rect" href="classETOL_1_1eGLPK.html" title=" " alt="" coords="232,1737,395,2415"/>
+<area shape="rect" href="classETOL_1_1eGurobi.html" title=" " alt="" coords="419,1832,573,2320"/>
+<area shape="rect" href="classETOL_1_1eOMPL.html" title=" " alt="" coords="597,1854,733,2298"/>
+<area shape="rect" href="classETOL_1_1ePSOPT.html" title=" " alt="" coords="758,1913,901,2239"/>
 </map>
 </div>
 <div class="dynheader">
@@ -532,16 +533,16 @@ Protected Attributes</h2></td></tr>
 
 <p>Constructs a trajectory optimization problem. </p>
 
-<p>Implemented in <a class="el" href="classETOL_1_1eOMPL.html#ad707ec3f1deb69c626b07d7a2ec39723">ETOL::eOMPL</a>, <a class="el" href="classETOL_1_1eGLPK.html#ad164d337f5482664c9982164b5572d67">ETOL::eGLPK</a>, <a class="el" href="classETOL_1_1eGurobi.html#abe63da9304f73b1a05e2a225389b22be">ETOL::eGurobi</a>, and <a class="el" href="classETOL_1_1ePSOPT.html#a0e4c0123d4feb4a0f2032b960b66d7e1">ETOL::ePSOPT</a>.</p>
+<p>Implemented in <a class="el" href="classETOL_1_1eOMPL.html#ad707ec3f1deb69c626b07d7a2ec39723">ETOL::eOMPL</a>, <a class="el" href="classETOL_1_1eDymos.html#ac7c9f5d967e2794a1064dd4ae0386070">ETOL::eDymos</a>, <a class="el" href="classETOL_1_1eGLPK.html#ad164d337f5482664c9982164b5572d67">ETOL::eGLPK</a>, <a class="el" href="classETOL_1_1eGurobi.html#abe63da9304f73b1a05e2a225389b22be">ETOL::eGurobi</a>, and <a class="el" href="classETOL_1_1ePSOPT.html#a0e4c0123d4feb4a0f2032b960b66d7e1">ETOL::ePSOPT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a164822bf934f941d7d434e10ee96fef6_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a164822bf934f941d7d434e10ee96fef6_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a164822bf934f941d7d434e10ee96fef6_icgraph" id="classETOL_1_1TrajectoryOptimizer_a164822bf934f941d7d434e10ee96fef6_icgraph">
 <area shape="rect" title="Constructs a trajectory optimization problem." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -572,16 +573,16 @@ Here is the caller graph for this function:</div>
 
 <p>Solves a trajectory optimization problem. </p>
 
-<p>Implemented in <a class="el" href="classETOL_1_1eOMPL.html#ab4514653699cbf244e20f7c48a161777">ETOL::eOMPL</a>, <a class="el" href="classETOL_1_1eGLPK.html#a9bcaee8466efbd189351f964708457a2">ETOL::eGLPK</a>, <a class="el" href="classETOL_1_1eGurobi.html#a326d51dd91910d0a0d76939ad7fe74f2">ETOL::eGurobi</a>, and <a class="el" href="classETOL_1_1ePSOPT.html#a4599c0499572f9f09b81bd8c18ad6d67">ETOL::ePSOPT</a>.</p>
+<p>Implemented in <a class="el" href="classETOL_1_1eOMPL.html#ab4514653699cbf244e20f7c48a161777">ETOL::eOMPL</a>, <a class="el" href="classETOL_1_1eDymos.html#a207f19d0de45a955fb2635bbb3920de1">ETOL::eDymos</a>, <a class="el" href="classETOL_1_1eGLPK.html#a9bcaee8466efbd189351f964708457a2">ETOL::eGLPK</a>, <a class="el" href="classETOL_1_1eGurobi.html#a326d51dd91910d0a0d76939ad7fe74f2">ETOL::eGurobi</a>, and <a class="el" href="classETOL_1_1ePSOPT.html#a4599c0499572f9f09b81bd8c18ad6d67">ETOL::ePSOPT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_aa97372c53782fc2bae260b07d7f08347_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_aa97372c53782fc2bae260b07d7f08347_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_aa97372c53782fc2bae260b07d7f08347_icgraph" id="classETOL_1_1TrajectoryOptimizer_aa97372c53782fc2bae260b07d7f08347_icgraph">
 <area shape="rect" title="Solves a trajectory optimization problem." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -612,16 +613,16 @@ Here is the caller graph for this function:</div>
 
 <p>Generates debug information. </p>
 
-<p>Implemented in <a class="el" href="classETOL_1_1eOMPL.html#ab076045a9b18ae15ddf5a564e2e79a11">ETOL::eOMPL</a>, <a class="el" href="classETOL_1_1eGLPK.html#af1ddfe81a6973a03c3a32d77cea37bb8">ETOL::eGLPK</a>, <a class="el" href="classETOL_1_1eGurobi.html#a35462d56ac003d77df9c33680bde6f55">ETOL::eGurobi</a>, and <a class="el" href="classETOL_1_1ePSOPT.html#aecfe35cb27a1ec4738f7b69ed36a4191">ETOL::ePSOPT</a>.</p>
+<p>Implemented in <a class="el" href="classETOL_1_1eOMPL.html#ab076045a9b18ae15ddf5a564e2e79a11">ETOL::eOMPL</a>, <a class="el" href="classETOL_1_1eDymos.html#a5ba59224848d0daedab23ee2ebc0b6c2">ETOL::eDymos</a>, <a class="el" href="classETOL_1_1eGLPK.html#af1ddfe81a6973a03c3a32d77cea37bb8">ETOL::eGLPK</a>, <a class="el" href="classETOL_1_1eGurobi.html#a35462d56ac003d77df9c33680bde6f55">ETOL::eGurobi</a>, and <a class="el" href="classETOL_1_1ePSOPT.html#aecfe35cb27a1ec4738f7b69ed36a4191">ETOL::ePSOPT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a4eb426d5bf23c94f4111c6015bed019d_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a4eb426d5bf23c94f4111c6015bed019d_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a4eb426d5bf23c94f4111c6015bed019d_icgraph" id="classETOL_1_1TrajectoryOptimizer_a4eb426d5bf23c94f4111c6015bed019d_icgraph">
 <area shape="rect" title="Generates debug information." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -652,16 +653,16 @@ Here is the caller graph for this function:</div>
 
 <p>Releases all dynamically allocated resources. </p>
 
-<p>Implemented in <a class="el" href="classETOL_1_1eOMPL.html#aafe943cb90ad331396192a7482a21f9c">ETOL::eOMPL</a>, <a class="el" href="classETOL_1_1eGLPK.html#a1b775340110314f5edf4696a5dc40ec3">ETOL::eGLPK</a>, <a class="el" href="classETOL_1_1eGurobi.html#a69d2c1471a09fff2eaf6cc4d14649e62">ETOL::eGurobi</a>, and <a class="el" href="classETOL_1_1ePSOPT.html#a524970b84193362e3ba5cc7b64aa43a5">ETOL::ePSOPT</a>.</p>
+<p>Implemented in <a class="el" href="classETOL_1_1eOMPL.html#aafe943cb90ad331396192a7482a21f9c">ETOL::eOMPL</a>, <a class="el" href="classETOL_1_1eDymos.html#a9166552e9ad9ccae70d1c7d39fae60be">ETOL::eDymos</a>, <a class="el" href="classETOL_1_1eGLPK.html#a1b775340110314f5edf4696a5dc40ec3">ETOL::eGLPK</a>, <a class="el" href="classETOL_1_1eGurobi.html#a69d2c1471a09fff2eaf6cc4d14649e62">ETOL::eGurobi</a>, and <a class="el" href="classETOL_1_1ePSOPT.html#a524970b84193362e3ba5cc7b64aa43a5">ETOL::ePSOPT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a262df1e71ec0c11e03aca72c0925db20_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a262df1e71ec0c11e03aca72c0925db20_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a262df1e71ec0c11e03aca72c0925db20_icgraph" id="classETOL_1_1TrajectoryOptimizer_a262df1e71ec0c11e03aca72c0925db20_icgraph">
 <area shape="rect" title="Releases all dynamically allocated resources." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -689,14 +690,14 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00568">_score</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a67ac7fa535cac19b6c7242c40934c0fd_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a67ac7fa535cac19b6c7242c40934c0fd_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a67ac7fa535cac19b6c7242c40934c0fd_icgraph" id="classETOL_1_1TrajectoryOptimizer_a67ac7fa535cac19b6c7242c40934c0fd_icgraph">
 <area shape="rect" title=" " alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -877,7 +878,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00579">_ulower</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00580">_uupper</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00581">_uvartype</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00573">_x0</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00578">_xf</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00574">_xlower</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00577">_xtol</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00575">_xupper</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00576">_xvartype</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00034">ETOL::BINARY</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00032">ETOL::CONTINUOUS</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01692">getDt()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01660">getNControls()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01848">getNExclZones()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01664">getNStates()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01700">getNSteps()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01852">getNTracks()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01832">getObstacles()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01836">getTracks()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01743">getUrhorizon()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01752">getXrhorizon()</a>, and <a class="el" href="ETOL__Types_8hpp_source.html#l00033">ETOL::INTERGER</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00045">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -902,7 +903,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a4ef6ac3302fc5f02703951cbc5a171b3_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a4ef6ac3302fc5f02703951cbc5a171b3_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a4ef6ac3302fc5f02703951cbc5a171b3_icgraph" id="classETOL_1_1TrajectoryOptimizer_a4ef6ac3302fc5f02703951cbc5a171b3_icgraph">
 <area shape="rect" title="Prints configurations onto the console." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__gurobi__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -1269,7 +1270,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00579">_ulower</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00580">_uupper</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00581">_uvartype</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00573">_x0</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00578">_xf</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00574">_xlower</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00577">_xtol</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00575">_xupper</a>, <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00576">_xvartype</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01630">addAdjTrack()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01623">addExclZone()</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00034">ETOL::BINARY</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00032">ETOL::CONTINUOUS</a>, <a class="el" href="xmlutils_8hpp_source.html#l00025">xmlutils::getdoc()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01692">getDt()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01660">getNControls()</a>, <a class="el" href="xmlutils_8hpp_source.html#l00042">xmlutils::getnodeset()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01664">getNStates()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01700">getNSteps()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01743">getUrhorizon()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01752">getXrhorizon()</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00033">ETOL::INTERGER</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00103">ETOL::track_t::radius</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00657">resetConfigs()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01696">setDt()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01765">setNControls()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01769">setNStates()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01704">setNSteps()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01747">setUrhorizon()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01756">setXrhorizon()</a>, and <a class="el" href="ETOL__Types_8hpp_source.html#l00104">ETOL::track_t::trajectory</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1301,7 +1302,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a9402796561b1f3ca8ce5f4070e8939f3_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a9402796561b1f3ca8ce5f4070e8939f3_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a9402796561b1f3ca8ce5f4070e8939f3_icgraph" id="classETOL_1_1TrajectoryOptimizer_a9402796561b1f3ca8ce5f4070e8939f3_icgraph">
 <area shape="rect" title="Loads configurations from an XML file." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -3056,13 +3057,13 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;                        <span class="keywordtype">double</span> cx = valx0 + mx*(t - *tlo_it);</div>
 <div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;                        <span class="keywordtype">double</span> cy = valy0 + my*(t - *tlo_it);</div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;                        <span class="keywordtype">double</span> r = track.radius;</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                        <a class="code" href="namespaceETOL.html#a948871b55ed4cac193bd03e7ad031e0c">line_t</a> mexz;</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                        <a class="code" href="namespaceETOL.html#a948871b55ed4cac193bd03e7ad031e0c">line_t</a> <a class="code" href="etol__dymos__example1_8cpp.html#a5e34683d9c82b6a2aafcb858f5c59cfe">mexz</a>;</div>
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                        <span class="keywordflow">for</span> (<span class="keywordtype">double</span> alpha=0.; alpha &lt; 1; alpha+=1./24.) {</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                            <span class="keywordtype">double</span> theta = alpha*2.*3.14159;</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                            mexz.push_back(std::make_pair(r*cos(theta) + cx,</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                            <a class="code" href="etol__dymos__example1_8cpp.html#a5e34683d9c82b6a2aafcb858f5c59cfe">mexz</a>.push_back(std::make_pair(r*cos(theta) + cx,</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;                                                           r*sin(theta) + cy));</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                        }</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                        mexz_vec.push_back(mexz);</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                        mexz_vec.push_back(<a class="code" href="etol__dymos__example1_8cpp.html#a5e34683d9c82b6a2aafcb858f5c59cfe">mexz</a>);</div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;                    }</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;                }</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;            }</div>
@@ -3173,9 +3174,9 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    <span class="keywordflow">return</span> outFile;</div>
 <div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00038">mysleep()</a>, <a class="el" href="etol__glpk__example1_8cpp_source.html#l00031">obstacles</a>, and <a class="el" href="etol__glpk__example1_8cpp_source.html#l00032">tracks</a>.</p>
+<p class="reference">References <a class="el" href="etol__dymos__example1_8cpp_source.html#l00030">mexz</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00038">mysleep()</a>, <a class="el" href="etol__glpk__example1_8cpp_source.html#l00031">obstacles</a>, and <a class="el" href="etol__glpk__example1_8cpp_source.html#l00032">tracks</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__gurobi__example4_8cpp_source.html#l00045">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3191,7 +3192,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a7975aaa7a4f0e9ce9b3153c1c3b17778_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a7975aaa7a4f0e9ce9b3153c1c3b17778_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a7975aaa7a4f0e9ce9b3153c1c3b17778_icgraph" id="classETOL_1_1TrajectoryOptimizer_a7975aaa7a4f0e9ce9b3153c1c3b17778_icgraph">
 <area shape="rect" title="Creates a 2D animation with static and moving exclusion zones." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__gurobi__example4_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -3330,20 +3331,21 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00573">_x0</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00259">ETOL::eGurobi::addX0()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00224">ETOL::eOMPL::addX0Xf()</a>, <a class="el" href="etol__gurobi__example3_8cpp_source.html#l00022">main()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>, and <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00259">ETOL::eGurobi::addX0()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00223">ETOL::eOMPL::addX0Xf()</a>, <a class="el" href="etol__dymos__example1_8cpp_source.html#l00108">editAlgo()</a>, <a class="el" href="etol__gurobi__example3_8cpp_source.html#l00022">main()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>, and <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a69c3b5dde0046204c9a9c1b58336cda7_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a69c3b5dde0046204c9a9c1b58336cda7_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a69c3b5dde0046204c9a9c1b58336cda7_icgraph" id="classETOL_1_1TrajectoryOptimizer_a69c3b5dde0046204c9a9c1b58336cda7_icgraph">
-<area shape="rect" title="Get the initial state." alt="" coords="449,150,636,191"/>
+<area shape="rect" title="Get the initial state." alt="" coords="449,175,636,217"/>
 <area shape="rect" href="classETOL_1_1ePSOPT.html#a33624945f8a9cbf84f2134ecd405cf04" title="Add the lower and upper bounds to PSOPT problem." alt="" coords="209,5,401,32"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#a51a4614ee6265a1c6e0f0b5b83199195" title="Add the initial state constraint to the Gurobi model." alt="" coords="225,56,385,83"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#abe63da9304f73b1a05e2a225389b22be" title="Constructs an optimization problem from settings." alt="" coords="5,81,161,108"/>
 <area shape="rect" href="classETOL_1_1eOMPL.html#ab28da98a21b39a345caee51160cc3d5b" title="Add the initial and goal state constraint to the OMPL model." alt="" coords="222,157,389,184"/>
-<area shape="rect" href="etol__gurobi__example3_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="56,237,111,264"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="212,259,399,301"/>
-<area shape="rect" href="classETOL_1_1eGLPK.html#ad164d337f5482664c9982164b5572d67" title="Constructs an optimization problem from settings." alt="" coords="232,325,379,352"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a6e0d42ce1f8f09021f1839dbb8dd9ffe" title=" " alt="" coords="268,208,343,235"/>
+<area shape="rect" href="etol__gurobi__example3_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="56,288,111,315"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="212,310,399,351"/>
+<area shape="rect" href="classETOL_1_1eGLPK.html#ad164d337f5482664c9982164b5572d67" title="Constructs an optimization problem from settings." alt="" coords="232,376,379,403"/>
 </map>
 </div>
 
@@ -3418,20 +3420,21 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00578">_xf</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00224">ETOL::eOMPL::addX0Xf()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00283">ETOL::eGurobi::addXf()</a>, <a class="el" href="etol__gurobi__example3_8cpp_source.html#l00022">main()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>, and <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00223">ETOL::eOMPL::addX0Xf()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00283">ETOL::eGurobi::addXf()</a>, <a class="el" href="etol__dymos__example1_8cpp_source.html#l00108">editAlgo()</a>, <a class="el" href="etol__gurobi__example3_8cpp_source.html#l00022">main()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>, and <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_adc49c4306c1ec9d75eb004cf154a2792_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_adc49c4306c1ec9d75eb004cf154a2792_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_adc49c4306c1ec9d75eb004cf154a2792_icgraph" id="classETOL_1_1TrajectoryOptimizer_adc49c4306c1ec9d75eb004cf154a2792_icgraph">
-<area shape="rect" title="Get the goal state." alt="" coords="449,150,636,191"/>
+<area shape="rect" title="Get the goal state." alt="" coords="449,175,636,217"/>
 <area shape="rect" href="classETOL_1_1ePSOPT.html#a33624945f8a9cbf84f2134ecd405cf04" title="Add the lower and upper bounds to PSOPT problem." alt="" coords="209,5,401,32"/>
 <area shape="rect" href="classETOL_1_1eOMPL.html#ab28da98a21b39a345caee51160cc3d5b" title="Add the initial and goal state constraint to the OMPL model." alt="" coords="222,56,389,83"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#a4b647b261b38423728542af4d47ef82b" title="Add the goal state constraint to the Gurobi model." alt="" coords="227,107,383,133"/>
-<area shape="rect" href="classETOL_1_1eGurobi.html#abe63da9304f73b1a05e2a225389b22be" title="Constructs an optimization problem from settings." alt="" coords="5,143,161,169"/>
-<area shape="rect" href="etol__gurobi__example3_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="56,223,111,249"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="212,259,399,301"/>
-<area shape="rect" href="classETOL_1_1eGLPK.html#ad164d337f5482664c9982164b5572d67" title="Constructs an optimization problem from settings." alt="" coords="232,325,379,352"/>
+<area shape="rect" href="classETOL_1_1eGurobi.html#abe63da9304f73b1a05e2a225389b22be" title="Constructs an optimization problem from settings." alt="" coords="5,132,161,159"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a6e0d42ce1f8f09021f1839dbb8dd9ffe" title=" " alt="" coords="268,208,343,235"/>
+<area shape="rect" href="etol__gurobi__example3_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="56,288,111,315"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="212,310,399,351"/>
+<area shape="rect" href="classETOL_1_1eGLPK.html#ad164d337f5482664c9982164b5572d67" title="Constructs an optimization problem from settings." alt="" coords="232,376,379,403"/>
 </map>
 </div>
 
@@ -3506,7 +3509,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00572">_nControls</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00186">ETOL::eOMPL::createVars()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00220">ETOL::ePSOPT::dae()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00257">ETOL::eOMPL::getTraj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00189">ETOL::ePSOPT::integrand_cost()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00766">loadConfigs()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00040">ETOL::ePSOPT::setup()</a>, and <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00185">ETOL::eOMPL::createVars()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00220">ETOL::ePSOPT::dae()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00256">ETOL::eOMPL::getTraj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00189">ETOL::ePSOPT::integrand_cost()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00766">loadConfigs()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00040">ETOL::ePSOPT::setup()</a>, and <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3555,7 +3558,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00571">_nStates</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00328">ETOL::eGurobi::addDyn()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00259">ETOL::eGurobi::addX0()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00224">ETOL::eOMPL::addX0Xf()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00283">ETOL::eGurobi::addXf()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00186">ETOL::eOMPL::createVars()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00220">ETOL::ePSOPT::dae()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00280">ETOL::ePSOPT::events()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00257">ETOL::eOMPL::getTraj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00189">ETOL::ePSOPT::integrand_cost()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00766">loadConfigs()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00040">ETOL::ePSOPT::setup()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>, and <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00328">ETOL::eGurobi::addDyn()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00259">ETOL::eGurobi::addX0()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00223">ETOL::eOMPL::addX0Xf()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00283">ETOL::eGurobi::addXf()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00185">ETOL::eOMPL::createVars()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00220">ETOL::ePSOPT::dae()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00280">ETOL::ePSOPT::events()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00256">ETOL::eOMPL::getTraj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00189">ETOL::ePSOPT::integrand_cost()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00766">loadConfigs()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00040">ETOL::ePSOPT::setup()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>, and <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3610,7 +3613,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00574">_xlower</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00186">ETOL::eOMPL::createVars()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>, and <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00185">ETOL::eOMPL::createVars()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>, and <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3697,7 +3700,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00575">_xupper</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00186">ETOL::eOMPL::createVars()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>, and <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00185">ETOL::eOMPL::createVars()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00071">ETOL::eGurobi::setup()</a>, and <a class="el" href="eGLPK_8cpp_source.html#l00039">ETOL::eGLPK::setup()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3869,13 +3872,13 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00569">_dt</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eGurobi_8cpp_source.html#l00141">ETOL::eGurobi::_dynConstr()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00116">ETOL::eGurobi::_objfunc()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00172">ETOL::eGurobi::_pathConstr()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00126">ETOL::eGLPK::createObstacles()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00157">ETOL::eGLPK::createTracks()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00220">ETOL::ePSOPT::dae()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00189">ETOL::ePSOPT::integrand_cost()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00766">loadConfigs()</a>, <a class="el" href="etol__gurobi__example2_8cpp_source.html#l00049">main()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00174">obsConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00321">saaConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00240">ETOL::eOMPL::setGradient()</a>, and <a class="el" href="ePSOPT_8cpp_source.html#l00040">ETOL::ePSOPT::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eGurobi_8cpp_source.html#l00141">ETOL::eGurobi::_dynConstr()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00116">ETOL::eGurobi::_objfunc()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00172">ETOL::eGurobi::_pathConstr()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00126">ETOL::eGLPK::createObstacles()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00157">ETOL::eGLPK::createTracks()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00220">ETOL::ePSOPT::dae()</a>, <a class="el" href="etol__dymos__example1_8cpp_source.html#l00108">editAlgo()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, <a class="el" href="ePSOPT_8cpp_source.html#l00189">ETOL::ePSOPT::integrand_cost()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00766">loadConfigs()</a>, <a class="el" href="etol__gurobi__example2_8cpp_source.html#l00049">main()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00174">obsConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00321">saaConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00239">ETOL::eOMPL::setGradient()</a>, and <a class="el" href="ePSOPT_8cpp_source.html#l00040">ETOL::ePSOPT::setup()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_aceb67f1fac78b72a3417efcbabc114a5_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_aceb67f1fac78b72a3417efcbabc114a5_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_aceb67f1fac78b72a3417efcbabc114a5_icgraph" id="classETOL_1_1TrajectoryOptimizer_aceb67f1fac78b72a3417efcbabc114a5_icgraph">
-<area shape="rect" title="Get the time step size." alt="" coords="472,429,659,470"/>
+<area shape="rect" title="Get the time step size." alt="" coords="472,454,659,495"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#a8602dec33cc745c22ef895e7ac7558b7" title="Converts the gradient function to a Gurobi expression." alt="" coords="221,5,413,32"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#ad4c70ea676cd63c14bdb38211da91d5e" title="Converts the objective function to a Gurobi expression." alt="" coords="230,56,403,83"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#a47b0f1d3ea666d59446845c03d316b72" title="Converts the constraint functions to a Gurobi expression." alt="" coords="217,107,416,133"/>
@@ -3885,15 +3888,16 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classETOL_1_1eGLPK.html#ab4403969b92b3ac8e354603dc6162f41" title="Add tracks." alt="" coords="220,309,413,336"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#acf4f57f78a4c29198e2d6c2f26a48f17" title="Add all variables to the Gurobi model." alt="" coords="221,360,412,387"/>
 <area shape="rect" href="classETOL_1_1ePSOPT.html#a319157b761fde42d7b323554808ec4af" title="Specifies the time derivatives of the states." alt="" coords="245,411,389,437"/>
-<area shape="rect" href="classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="235,461,399,488"/>
-<area shape="rect" href="classETOL_1_1ePSOPT.html#aaad44335e8ad0b2f16294fd9d0d3e49a" title="Specifies the integrand costs." alt="" coords="209,512,424,539"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="223,563,410,605"/>
-<area shape="rect" href="etol__gurobi__example2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="289,629,344,656"/>
-<area shape="rect" href="etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="261,680,372,707"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="223,731,410,773"/>
-<area shape="rect" href="etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="261,797,372,824"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="223,849,410,890"/>
-<area shape="rect" href="classETOL_1_1eOMPL.html#abf50ae227e80b20a38640878f9654b84" title="Set the system dynamics x_dot = f(x,u)" alt="" coords="222,915,411,941"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a6e0d42ce1f8f09021f1839dbb8dd9ffe" title=" " alt="" coords="279,461,354,488"/>
+<area shape="rect" href="classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="235,512,399,539"/>
+<area shape="rect" href="classETOL_1_1ePSOPT.html#aaad44335e8ad0b2f16294fd9d0d3e49a" title="Specifies the integrand costs." alt="" coords="209,563,424,589"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="223,614,410,655"/>
+<area shape="rect" href="etol__gurobi__example2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="289,680,344,707"/>
+<area shape="rect" href="etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="261,731,372,757"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="223,782,410,823"/>
+<area shape="rect" href="etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="261,848,372,875"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="223,899,410,941"/>
+<area shape="rect" href="classETOL_1_1eOMPL.html#abf50ae227e80b20a38640878f9654b84" title="Set the system dynamics x_dot = f(x,u)" alt="" coords="222,965,411,992"/>
 </map>
 </div>
 
@@ -3970,13 +3974,13 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00570">_nSteps</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00310">ETOL::eGurobi::addConstr()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00328">ETOL::eGurobi::addDyn()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00342">ETOL::eGurobi::addObj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00283">ETOL::eGurobi::addXf()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00126">ETOL::eGLPK::createObstacles()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00157">ETOL::eGLPK::createTracks()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00766">loadConfigs()</a>, <a class="el" href="etol__gurobi__example2_8cpp_source.html#l00049">main()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00174">obsConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00321">saaConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00240">ETOL::eOMPL::setGradient()</a>, and <a class="el" href="ePSOPT_8cpp_source.html#l00040">ETOL::ePSOPT::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00310">ETOL::eGurobi::addConstr()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00328">ETOL::eGurobi::addDyn()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00342">ETOL::eGurobi::addObj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00283">ETOL::eGurobi::addXf()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00126">ETOL::eGLPK::createObstacles()</a>, <a class="el" href="eGLPK_8cpp_source.html#l00157">ETOL::eGLPK::createTracks()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="etol__dymos__example1_8cpp_source.html#l00108">editAlgo()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00766">loadConfigs()</a>, <a class="el" href="etol__gurobi__example2_8cpp_source.html#l00049">main()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00174">obsConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00321">saaConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00239">ETOL::eOMPL::setGradient()</a>, and <a class="el" href="ePSOPT_8cpp_source.html#l00040">ETOL::ePSOPT::setup()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a427abf082db58439e1f64dfeee13e90d_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a427abf082db58439e1f64dfeee13e90d_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a427abf082db58439e1f64dfeee13e90d_icgraph" id="classETOL_1_1TrajectoryOptimizer_a427abf082db58439e1f64dfeee13e90d_icgraph">
-<area shape="rect" title="Get the number of time steps." alt="" coords="472,403,659,445"/>
+<area shape="rect" title="Get the number of time steps." alt="" coords="472,429,659,470"/>
 <area shape="rect" href="classETOL_1_1ePSOPT.html#a33624945f8a9cbf84f2134ecd405cf04" title="Add the lower and upper bounds to PSOPT problem." alt="" coords="221,5,413,32"/>
 <area shape="rect" href="classETOL_1_1ePSOPT.html#a0e4c0123d4feb4a0f2032b960b66d7e1" title="Constructs an optimization problem from settings." alt="" coords="5,31,161,57"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#affc82a53b12aac347e3b1e04df041a92" title="Add the path constraints to the Gurobi model." alt="" coords="223,107,410,133"/>
@@ -3986,14 +3990,15 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classETOL_1_1eGLPK.html#af54afff990cf10d0c45064c416d26719" title="Add obstacles." alt="" coords="209,309,424,336"/>
 <area shape="rect" href="classETOL_1_1eGLPK.html#ab4403969b92b3ac8e354603dc6162f41" title="Add tracks." alt="" coords="220,360,413,387"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#acf4f57f78a4c29198e2d6c2f26a48f17" title="Add all variables to the Gurobi model." alt="" coords="221,411,412,437"/>
-<area shape="rect" href="classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="235,461,399,488"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="223,513,410,554"/>
-<area shape="rect" href="etol__gurobi__example2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="289,579,344,605"/>
-<area shape="rect" href="etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="261,629,372,656"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="223,681,410,722"/>
-<area shape="rect" href="etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="261,747,372,773"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="223,798,410,839"/>
-<area shape="rect" href="classETOL_1_1eOMPL.html#abf50ae227e80b20a38640878f9654b84" title="Set the system dynamics x_dot = f(x,u)" alt="" coords="222,864,411,891"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a6e0d42ce1f8f09021f1839dbb8dd9ffe" title=" " alt="" coords="279,461,354,488"/>
+<area shape="rect" href="classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="235,512,399,539"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3" title="Loads configurations from an XML file." alt="" coords="223,563,410,605"/>
+<area shape="rect" href="etol__gurobi__example2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="289,629,344,656"/>
+<area shape="rect" href="etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="261,680,372,707"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="223,731,410,773"/>
+<area shape="rect" href="etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="261,797,372,824"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="223,849,410,890"/>
+<area shape="rect" href="classETOL_1_1eOMPL.html#abf50ae227e80b20a38640878f9654b84" title="Set the system dynamics x_dot = f(x,u)" alt="" coords="222,915,411,941"/>
 </map>
 </div>
 
@@ -4156,7 +4161,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00579">_ulower</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00186">ETOL::eOMPL::createVars()</a>, and <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00185">ETOL::eOMPL::createVars()</a>, and <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4241,7 +4246,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00580">_uupper</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00186">ETOL::eOMPL::createVars()</a>, and <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00125">ETOL::ePSOPT::addBounds()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00215">ETOL::eGurobi::createVars()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00185">ETOL::eOMPL::createVars()</a>, and <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4794,14 +4799,14 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00589">_constraints</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_ac2eb8cdd9873bdf182c4ce05e790d57d_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_ac2eb8cdd9873bdf182c4ce05e790d57d_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_ac2eb8cdd9873bdf182c4ce05e790d57d_icgraph" id="classETOL_1_1TrajectoryOptimizer_ac2eb8cdd9873bdf182c4ce05e790d57d_icgraph">
 <area shape="rect" title="Set sense&#45;agnostic constraint functions." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -4838,14 +4843,14 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00592">_gradient</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a803b459b724e40275d475751ce284acc_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a803b459b724e40275d475751ce284acc_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a803b459b724e40275d475751ce284acc_icgraph" id="classETOL_1_1TrajectoryOptimizer_a803b459b724e40275d475751ce284acc_icgraph">
 <area shape="rect" title="Set the states&#39; time derivative function." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -4882,14 +4887,14 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00593">_objective</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_ad28e0166154aae2941ce8a3e1ebc57f3_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_ad28e0166154aae2941ce8a3e1ebc57f3_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_ad28e0166154aae2941ce8a3e1ebc57f3_icgraph" id="classETOL_1_1TrajectoryOptimizer_ad28e0166154aae2941ce8a3e1ebc57f3_icgraph">
 <area shape="rect" title="Set the objective function." alt="" coords="108,5,295,47"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>
 </div>
 
@@ -4920,7 +4925,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00595">_utraj</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00160">ETOL::ePSOPT::getTraj()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00257">ETOL::eOMPL::getTraj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, and <a class="el" href="etol__gurobi__example2_8cpp_source.html#l00049">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00160">ETOL::ePSOPT::getTraj()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00256">ETOL::eOMPL::getTraj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, and <a class="el" href="etol__gurobi__example2_8cpp_source.html#l00049">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4961,7 +4966,7 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00594">_xtraj</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00160">ETOL::ePSOPT::getTraj()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00257">ETOL::eOMPL::getTraj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, and <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ePSOPT_8cpp_source.html#l00160">ETOL::ePSOPT::getTraj()</a>, <a class="el" href="eOMPL_8cpp_source.html#l00256">ETOL::eOMPL::getTraj()</a>, <a class="el" href="eGurobi_8cpp_source.html#l00360">ETOL::eGurobi::getTraj()</a>, and <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -4971,7 +4976,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classETOL_1_1ePSOPT.html#a9c0bf3ae2b7a26955c5dbf471dcff5d2" title=" " alt="" coords="5,5,169,32"/>
 <area shape="rect" href="classETOL_1_1eOMPL.html#a90f98ef8915cee3e1d5b7d3b40a3527d" title="Get the trajectory results from the OMPL model." alt="" coords="8,56,167,83"/>
 <area shape="rect" href="classETOL_1_1eGurobi.html#a56338e22a0d6df08f813e4386cbc5a01" title="Get the trajectory results from the Gurobi model." alt="" coords="5,107,169,133"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="60,157,115,184"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="60,157,115,184"/>
 </map>
 </div>
 
@@ -5137,15 +5142,16 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00586">_obstacles_raw</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eOMPL_8cpp_source.html#l00186">ETOL::eOMPL::createVars()</a>, and <a class="el" href="etol__psopt__example1_8cpp_source.html#l00135">obsConstraint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eOMPL_8cpp_source.html#l00185">ETOL::eOMPL::createVars()</a>, <a class="el" href="etol__psopt__example1_8cpp_source.html#l00135">obsConstraint()</a>, and <a class="el" href="etol__dymos__example1_8cpp_source.html#l00305">setExz()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a8c0790652a95fc0f07382adbbe87014e_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a8c0790652a95fc0f07382adbbe87014e_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a8c0790652a95fc0f07382adbbe87014e_icgraph" id="classETOL_1_1TrajectoryOptimizer_a8c0790652a95fc0f07382adbbe87014e_icgraph">
-<area shape="rect" title="Get the pointer to the unprocessed exclusion zones." alt="" coords="237,23,424,65"/>
+<area shape="rect" title="Get the pointer to the unprocessed exclusion zones." alt="" coords="237,49,424,90"/>
 <area shape="rect" href="classETOL_1_1eOMPL.html#a0ce828cfc1e94424700bafecac5d078a" title="Add all variables to the OMPL model." alt="" coords="5,5,189,32"/>
 <area shape="rect" href="etol__psopt__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="42,56,153,83"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a795de386eac991e95a0acfc2d24e2f57" title=" " alt="" coords="65,107,129,133"/>
 </map>
 </div>
 
@@ -5176,18 +5182,18 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00587">_obstacles</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eGLPK_8cpp_source.html#l00126">ETOL::eGLPK::createObstacles()</a>, <a class="el" href="etol__glpk__example1_8cpp_source.html#l00042">main()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00174">obsConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, and <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eGLPK_8cpp_source.html#l00126">ETOL::eGLPK::createObstacles()</a>, <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00174">obsConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, and <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a13fdf8a2351ec5e63edb8db045e41aa5_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a13fdf8a2351ec5e63edb8db045e41aa5_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a13fdf8a2351ec5e63edb8db045e41aa5_icgraph" id="classETOL_1_1TrajectoryOptimizer_a13fdf8a2351ec5e63edb8db045e41aa5_icgraph">
-<area shape="rect" title="Get the pointer to the polygon partitioned exclusion zones." alt="" coords="268,99,455,141"/>
-<area shape="rect" href="classETOL_1_1eGLPK.html#af54afff990cf10d0c45064c416d26719" title="Add obstacles." alt="" coords="5,5,220,32"/>
-<area shape="rect" href="etol__glpk__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="85,56,140,83"/>
-<area shape="rect" href="etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="57,107,168,133"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="19,158,206,199"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="19,223,206,265"/>
+<area shape="rect" title="Get the pointer to the polygon partitioned exclusion zones." alt="" coords="371,99,557,141"/>
+<area shape="rect" href="classETOL_1_1eGLPK.html#af54afff990cf10d0c45064c416d26719" title="Add obstacles." alt="" coords="108,5,323,32"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,111,60,137"/>
+<area shape="rect" href="etol__gurobi__example1_8cpp.html#a51ebe7e99d41da7c794db97ce9e5c817" title=" " alt="" coords="160,107,271,133"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="122,158,309,199"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="122,223,309,265"/>
 </map>
 </div>
 
@@ -5218,18 +5224,19 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TrajectoryOptimizer_8hpp_source.html#l00588">_tracks</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eGLPK_8cpp_source.html#l00157">ETOL::eGLPK::createTracks()</a>, <a class="el" href="etol__gurobi__example4_8cpp_source.html#l00045">main()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00321">saaConstraint()</a>, and <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eGLPK_8cpp_source.html#l00157">ETOL::eGLPK::createTracks()</a>, <a class="el" href="etol__dymos__example1_8cpp_source.html#l00044">main()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l00678">printConfigs()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00321">saaConstraint()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01100">saveConfigs()</a>, and <a class="el" href="etol__dymos__example1_8cpp_source.html#l00332">setMexz()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classETOL_1_1TrajectoryOptimizer_a56386f608f877f0f5385bf02b2084862_icgraph.png" border="0" usemap="#classETOL_1_1TrajectoryOptimizer_a56386f608f877f0f5385bf02b2084862_icgraph" alt=""/></div>
 <map name="classETOL_1_1TrajectoryOptimizer_a56386f608f877f0f5385bf02b2084862_icgraph" id="classETOL_1_1TrajectoryOptimizer_a56386f608f877f0f5385bf02b2084862_icgraph">
-<area shape="rect" title="Get the pointer to the moving exclusion zones." alt="" coords="247,107,433,149"/>
-<area shape="rect" href="classETOL_1_1eGLPK.html#ab4403969b92b3ac8e354603dc6162f41" title="Add tracks." alt="" coords="5,5,199,32"/>
-<area shape="rect" href="etol__gurobi__example4_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="75,56,129,83"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="9,107,195,149"/>
-<area shape="rect" href="etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="47,173,157,200"/>
-<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="9,225,195,266"/>
+<area shape="rect" title="Get the pointer to the moving exclusion zones." alt="" coords="349,137,536,178"/>
+<area shape="rect" href="classETOL_1_1eGLPK.html#ab4403969b92b3ac8e354603dc6162f41" title="Add tracks." alt="" coords="108,5,301,32"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,115,60,141"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4ef6ac3302fc5f02703951cbc5a171b3" title="Prints configurations onto the console." alt="" coords="111,107,298,149"/>
+<area shape="rect" href="etol__gurobi__example1_8cpp.html#a92d52f32f776fb39a97f2242a442ea00" title=" " alt="" coords="149,173,260,200"/>
+<area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a4dec7dd6362757042a7e05ef58fd1e17" title="Saves configurations to an XML file." alt="" coords="111,225,298,266"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#ab2b3b4c066919d2038c47adea18d7e03" title=" " alt="" coords="167,291,242,317"/>
 </map>
 </div>
 
@@ -6314,8 +6321,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>C:/msys64/home/admin/ETOL/include/ETOL/<a class="el" href="TrajectoryOptimizer_8hpp_source.html">TrajectoryOptimizer.hpp</a></li>
-<li>C:/msys64/home/admin/ETOL/src/TrajectoryOptimizer/<a class="el" href="TrajectoryOptimizer_8cpp_source.html">TrajectoryOptimizer.cpp</a></li>
+<li>C:/Users/admin/git/ETOL/include/ETOL/<a class="el" href="TrajectoryOptimizer_8hpp_source.html">TrajectoryOptimizer.hpp</a></li>
+<li>C:/Users/admin/git/ETOL/src/TrajectoryOptimizer/<a class="el" href="TrajectoryOptimizer_8cpp_source.html">TrajectoryOptimizer.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -6358,6 +6365,7 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="anamespaceETOL_html_ad69eeb06157f3e52d0c5b4b7510649af"><div class="ttname"><a href="namespaceETOL.html#ad69eeb06157f3e52d0c5b4b7510649af">ETOL::lines_t</a></div><div class="ttdeci">std::vector&lt; line_t &gt; lines_t</div><div class="ttdef"><b>Definition:</b> <a href="ETOL__Types_8hpp_source.html#l00057">ETOL_Types.hpp:57</a></div></div>
 <div class="ttc" id="aclassETOL_1_1TrajectoryOptimizer_html_a8e3294a04846b5e01441c4d474d9d23d"><div class="ttname"><a href="classETOL_1_1TrajectoryOptimizer.html#a8e3294a04846b5e01441c4d474d9d23d">ETOL::TrajectoryOptimizer::_urhorizon</a></div><div class="ttdeci">size_t _urhorizon</div><div class="ttdef"><b>Definition:</b> <a href="TrajectoryOptimizer_8hpp_source.html#l00583">TrajectoryOptimizer.hpp:583</a></div></div>
 <div class="ttc" id="aclassETOL_1_1TrajectoryOptimizer_html_af547ccb7cb160111cdcf5bd06923be07"><div class="ttname"><a href="classETOL_1_1TrajectoryOptimizer.html#af547ccb7cb160111cdcf5bd06923be07">ETOL::TrajectoryOptimizer::getNControls</a></div><div class="ttdeci">const size_t getNControls() const</div><div class="ttdoc">Get the number of control variables.</div><div class="ttdef"><b>Definition:</b> <a href="TrajectoryOptimizer_8cpp_source.html#l01660">TrajectoryOptimizer.cpp:1660</a></div></div>
+<div class="ttc" id="aetol__dymos__example1_8cpp_html_a5e34683d9c82b6a2aafcb858f5c59cfe"><div class="ttname"><a href="etol__dymos__example1_8cpp.html#a5e34683d9c82b6a2aafcb858f5c59cfe">mexz</a></div><div class="ttdeci">std::vector&lt; std::tuple&lt; double, ETOL::state_t, std::vector&lt; ETOL::state_t &gt; &gt; &gt; mexz</div><div class="ttdef"><b>Definition:</b> <a href="etol__dymos__example1_8cpp_source.html#l00030">etol_dymos_example1.cpp:30</a></div></div>
 <div class="ttc" id="aclassETOL_1_1TrajectoryOptimizer_html_aecbeb2d885dbf5a65f70105996b74922"><div class="ttname"><a href="classETOL_1_1TrajectoryOptimizer.html#aecbeb2d885dbf5a65f70105996b74922">ETOL::TrajectoryOptimizer::_nStates</a></div><div class="ttdeci">size_t _nStates</div><div class="ttdef"><b>Definition:</b> <a href="TrajectoryOptimizer_8hpp_source.html#l00571">TrajectoryOptimizer.hpp:571</a></div></div>
 <div class="ttc" id="aclassETOL_1_1TrajectoryOptimizer_html_aceb67f1fac78b72a3417efcbabc114a5"><div class="ttname"><a href="classETOL_1_1TrajectoryOptimizer.html#aceb67f1fac78b72a3417efcbabc114a5">ETOL::TrajectoryOptimizer::getDt</a></div><div class="ttdeci">const double getDt() const</div><div class="ttdoc">Get the time step size.</div><div class="ttdef"><b>Definition:</b> <a href="TrajectoryOptimizer_8cpp_source.html#l01692">TrajectoryOptimizer.cpp:1692</a></div></div>
 <div class="ttc" id="aclassETOL_1_1TrajectoryOptimizer_html_a69446696951cd6c075e3b00abca2d0bd"><div class="ttname"><a href="classETOL_1_1TrajectoryOptimizer.html#a69446696951cd6c075e3b00abca2d0bd">ETOL::TrajectoryOptimizer::getUrhorizon</a></div><div class="ttdeci">const size_t getUrhorizon() const</div><div class="ttdoc">Get the controls' reverse time horizon.</div><div class="ttdef"><b>Definition:</b> <a href="TrajectoryOptimizer_8cpp_source.html#l01743">TrajectoryOptimizer.cpp:1743</a></div></div>
@@ -6403,7 +6411,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceETOL.html">ETOL</a></li><li class="navelem"><a class="el" href="classETOL_1_1TrajectoryOptimizer.html">TrajectoryOptimizer</a></li>
-    <li class="footer">Generated on Mon Jun 22 2020 19:10:14 for ETOL by
+    <li class="footer">Generated on Wed Jul 15 2020 18:17:44 for ETOL by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

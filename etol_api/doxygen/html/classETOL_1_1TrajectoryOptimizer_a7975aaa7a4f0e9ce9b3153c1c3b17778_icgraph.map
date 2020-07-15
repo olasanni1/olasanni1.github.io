@@ -1,4 +1,4 @@
 <map id="ETOL::TrajectoryOptimizer::animate2D" name="ETOL::TrajectoryOptimizer::animate2D">
 <area shape="rect" id="node1" title="Creates a 2D animation with static and moving exclusion zones." alt="" coords="108,5,295,47"/>
-<area shape="rect" id="node2" href="$etol__gurobi__example4_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" id="node2" href="$etol__dymos__example1_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,39"/>
 </map>

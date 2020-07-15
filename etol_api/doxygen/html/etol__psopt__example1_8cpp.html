@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ETOL: C:/msys64/home/admin/ETOL/src/Examples/PSOPT/etol_psopt_example1.cpp File Reference</title>
+<title>ETOL: C:/Users/admin/git/ETOL/src/Examples/PSOPT/etol_psopt_example1.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -98,8 +98,8 @@ $(document).ready(function(){initNavTree('etol__psopt__example1_8cpp.html',''); 
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for etol_psopt_example1.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="etol__psopt__example1_8cpp__incl.png" border="0" usemap="#C_1_2msys64_2home_2admin_2ETOL_2src_2Examples_2PSOPT_2etol__psopt__example1_8cpp" alt=""/></div>
-<map name="C_1_2msys64_2home_2admin_2ETOL_2src_2Examples_2PSOPT_2etol__psopt__example1_8cpp" id="C_1_2msys64_2home_2admin_2ETOL_2src_2Examples_2PSOPT_2etol__psopt__example1_8cpp">
+<div class="center"><img src="etol__psopt__example1_8cpp__incl.png" border="0" usemap="#C_1_2Users_2admin_2git_2ETOL_2src_2Examples_2PSOPT_2etol__psopt__example1_8cpp" alt=""/></div>
+<map name="C_1_2Users_2admin_2git_2ETOL_2src_2Examples_2PSOPT_2etol__psopt__example1_8cpp" id="C_1_2Users_2admin_2git_2ETOL_2src_2Examples_2PSOPT_2etol__psopt__example1_8cpp">
 <area shape="rect" title="Loads a ETOL Config XML file and uses PSOPT to solve a ETOL." alt="" coords="13,5,207,61"/>
 <area shape="rect" title=" " alt="" coords="5,109,84,136"/>
 <area shape="rect" href="ePSOPT_8hpp.html" title="The header file for the PSOPT implementation for ETOL." alt="" coords="109,109,245,136"/>
@@ -492,9 +492,9 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            adouble tval = *std::any_cast&lt;adouble*&gt;(k);</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> track : <a class="code" href="etol__psopt__example1_8cpp.html#ab7f7fe696921be5e484cd5f48bcfcf0b">tracks</a>) {</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                adouble xc, yc;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                linear_interpolation(&amp;xc, tval, track.second.Column(1),</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <a class="code" href="etol__dymos__example1_8cpp.html#a7a5a15dea1ddb92ef6ae144ccf2a609c">linear_interpolation</a>(&amp;xc, tval, track.second.Column(1),</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                        track.second.Column(2), track.second.GetNoRows());</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                linear_interpolation(&amp;yc, tval, track.second.Column(1),</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                <a class="code" href="etol__dymos__example1_8cpp.html#a7a5a15dea1ddb92ef6ae144ccf2a609c">linear_interpolation</a>(&amp;yc, tval, track.second.Column(1),</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                        track.second.Column(3), track.second.GetNoRows());</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160; </div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                adouble dx = xk - xc;</div>
@@ -514,7 +514,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">return</span> saa;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01618">ETOL::TrajectoryOptimizer::addParams()</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00032">ETOL::CONTINUOUS</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00025">F_ARGS</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01692">ETOL::TrajectoryOptimizer::getDt()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01700">ETOL::TrajectoryOptimizer::getNSteps()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01836">ETOL::TrajectoryOptimizer::getTracks()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00459">paramName()</a>, and <a class="el" href="etol__psopt__example1_8cpp_source.html#l00024">tracks</a>.</p>
+<p class="reference">References <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01618">ETOL::TrajectoryOptimizer::addParams()</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00032">ETOL::CONTINUOUS</a>, <a class="el" href="ETOL__Types_8hpp_source.html#l00025">F_ARGS</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01692">ETOL::TrajectoryOptimizer::getDt()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01700">ETOL::TrajectoryOptimizer::getNSteps()</a>, <a class="el" href="TrajectoryOptimizer_8cpp_source.html#l01836">ETOL::TrajectoryOptimizer::getTracks()</a>, <a class="el" href="etol__dymos__example1_8cpp_source.html#l00357">linear_interpolation()</a>, <a class="el" href="etol__gurobi__example1_8cpp_source.html#l00459">paramName()</a>, and <a class="el" href="etol__psopt__example1_8cpp_source.html#l00024">tracks</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="etol__psopt__example1_8cpp_source.html#l00036">main()</a>.</p>
 <div class="dynheader">
@@ -522,12 +522,13 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="etol__psopt__example1_8cpp_a6712e059a536ace2dd0a9bf1e6853391_cgraph.png" border="0" usemap="#etol__psopt__example1_8cpp_a6712e059a536ace2dd0a9bf1e6853391_cgraph" alt=""/></div>
 <map name="etol__psopt__example1_8cpp_a6712e059a536ace2dd0a9bf1e6853391_cgraph" id="etol__psopt__example1_8cpp_a6712e059a536ace2dd0a9bf1e6853391_cgraph">
-<area shape="rect" title=" " alt="" coords="5,143,116,170"/>
+<area shape="rect" title=" " alt="" coords="5,177,116,203"/>
 <area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a2e083ae3c9f74b6380788cd7b358beb3" title="Adds a non&#45;state or non&#45;control variable to the problem." alt="" coords="164,5,351,47"/>
 <area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#aceb67f1fac78b72a3417efcbabc114a5" title="Get the time step size." alt="" coords="164,71,351,112"/>
 <area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a427abf082db58439e1f64dfeee13e90d" title="Get the number of time steps." alt="" coords="164,136,351,177"/>
 <area shape="rect" href="classETOL_1_1TrajectoryOptimizer.html#a56386f608f877f0f5385bf02b2084862" title="Get the pointer to the moving exclusion zones." alt="" coords="164,201,351,243"/>
-<area shape="rect" href="etol__psopt__example1_8cpp.html#a22a789f5c321b1fed8b65966a046f0de" title=" " alt="" coords="206,267,309,294"/>
+<area shape="rect" href="etol__dymos__example1_8cpp.html#a7a5a15dea1ddb92ef6ae144ccf2a609c" title=" " alt="" coords="185,267,329,294"/>
+<area shape="rect" href="etol__psopt__example1_8cpp.html#a22a789f5c321b1fed8b65966a046f0de" title=" " alt="" coords="206,318,309,345"/>
 </map>
 </div>
 <div class="dynheader">
@@ -795,6 +796,7 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="aclassETOL_1_1TrajectoryOptimizer_html_a67ac7fa535cac19b6c7242c40934c0fd"><div class="ttname"><a href="classETOL_1_1TrajectoryOptimizer.html#a67ac7fa535cac19b6c7242c40934c0fd">ETOL::TrajectoryOptimizer::getScore</a></div><div class="ttdeci">const double getScore() const</div><div class="ttdef"><b>Definition:</b> <a href="TrajectoryOptimizer_8cpp_source.html#l01636">TrajectoryOptimizer.cpp:1636</a></div></div>
 <div class="ttc" id="aetol__psopt__example1_8cpp_html_aadb5f272a3c79d1156baa3ef32ac15e6"><div class="ttname"><a href="etol__psopt__example1_8cpp.html#aadb5f272a3c79d1156baa3ef32ac15e6">editAlgo</a></div><div class="ttdeci">void editAlgo(ETOL::TrajectoryOptimizer *)</div><div class="ttdef"><b>Definition:</b> <a href="etol__psopt__example1_8cpp_source.html#l00082">etol_psopt_example1.cpp:82</a></div></div>
 <div class="ttc" id="aclassETOL_1_1TrajectoryOptimizer_html_ad28e0166154aae2941ce8a3e1ebc57f3"><div class="ttname"><a href="classETOL_1_1TrajectoryOptimizer.html#ad28e0166154aae2941ce8a3e1ebc57f3">ETOL::TrajectoryOptimizer::setObjective</a></div><div class="ttdeci">void setObjective(f_t *objective)</div><div class="ttdoc">Set the objective function.</div><div class="ttdef"><b>Definition:</b> <a href="TrajectoryOptimizer_8cpp_source.html#l01789">TrajectoryOptimizer.cpp:1789</a></div></div>
+<div class="ttc" id="aetol__dymos__example1_8cpp_html_a7a5a15dea1ddb92ef6ae144ccf2a609c"><div class="ttname"><a href="etol__dymos__example1_8cpp.html#a7a5a15dea1ddb92ef6ae144ccf2a609c">linear_interpolation</a></div><div class="ttdeci">double linear_interpolation(const double &amp;, const ETOL::state_t &amp;, const ETOL::state_t &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="etol__dymos__example1_8cpp_source.html#l00357">etol_dymos_example1.cpp:357</a></div></div>
 <div class="ttc" id="aclassETOL_1_1TrajectoryOptimizer_html_a4eb426d5bf23c94f4111c6015bed019d"><div class="ttname"><a href="classETOL_1_1TrajectoryOptimizer.html#a4eb426d5bf23c94f4111c6015bed019d">ETOL::TrajectoryOptimizer::debug</a></div><div class="ttdeci">virtual void debug()=0</div><div class="ttdoc">Generates debug information.</div></div>
 <div class="ttc" id="aetol__psopt__example1_8cpp_html_a22a789f5c321b1fed8b65966a046f0de"><div class="ttname"><a href="etol__psopt__example1_8cpp.html#a22a789f5c321b1fed8b65966a046f0de">paramName</a></div><div class="ttdeci">std::string paramName(const std::string, const size_t &amp;, const size_t &amp;, const size_t &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="etol__gurobi__example1_8cpp_source.html#l00459">etol_gurobi_example1.cpp:459</a></div></div>
 <div class="ttc" id="aclassETOL_1_1TrajectoryOptimizer_html_a9402796561b1f3ca8ce5f4070e8939f3"><div class="ttname"><a href="classETOL_1_1TrajectoryOptimizer.html#a9402796561b1f3ca8ce5f4070e8939f3">ETOL::TrajectoryOptimizer::loadConfigs</a></div><div class="ttdeci">void loadConfigs(const char *filepath)</div><div class="ttdoc">Loads configurations from an XML file.</div><div class="ttdef"><b>Definition:</b> <a href="TrajectoryOptimizer_8cpp_source.html#l00766">TrajectoryOptimizer.cpp:766</a></div></div>
@@ -830,7 +832,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_8a888dfd027ab8d8ceb28b3991964fd7.html">Examples</a></li><li class="navelem"><a class="el" href="dir_37b8fd3997f02bf3aa26006ab078bf05.html">PSOPT</a></li><li class="navelem"><a class="el" href="etol__psopt__example1_8cpp.html">etol_psopt_example1.cpp</a></li>
-    <li class="footer">Generated on Mon Jun 22 2020 19:10:12 for ETOL by
+    <li class="footer">Generated on Wed Jul 15 2020 18:17:44 for ETOL by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
